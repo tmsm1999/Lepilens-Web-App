@@ -48,8 +48,6 @@ class Model:
 
                 res = "{:6.2f}%: {}: %d".format(r*100, self.labels[i], pic_number)
                 pic_number += 1
-                #print('{:06.4f}: {}'.format(r, self.labels[i]))
-                #print(res)
                 final_results.append(res)
 
 

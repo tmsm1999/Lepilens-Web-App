@@ -4,18 +4,18 @@ import modelo
 from flask import Flask, render_template, request
 
 
-model_file = "/Users/tomassantiago/PycharmProjects/DatasetBorboletas/Modelo_v1/model.tflite"
-label_file = "/Users/tomassantiago/PycharmProjects/DatasetBorboletas/Modelo_v1/dict.txt"
+model_file = os.getcwd() + "/model.tflite"
+label_file = os.getcwd() + "/dict.txt"
 
 model = modelo.Model(model_file, label_file)
 
 min_confidence = 0.05
-max_results = 10
+max_results = 5
 pic_number = 0
 
 application = Flask(__name__)
 
-application.config["IMAGE_STATIC"] = "/Users/tomassantiago/PycharmProjects/Deployment/static"
+application.config["IMAGE_STATIC"] = os.getcwd() + "/static"
 
 @application.route("/")
 def initHTML():
@@ -48,8 +48,6 @@ def classify_image():
 
                 for elem in res_list:
                     print(elem)
-
-                #os.remove(os.path.join(application.config["IMAGE_STATIC"], image.filename))
 
     return render_template('Model_WebPage.html', species_list=dictionary)
 
