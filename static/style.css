@@ -1,0 +1,82 @@
+h1 {
+    text-align: center;
+    font-family: "Marker Felt";
+    font-size: 65px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Avenir Next";
+    font-size: 25px;
+    margin-top: 10px;;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color:#b3b3b3;
+}
+
+#form_div {
+    background-color:#b3b3b3;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#form {
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+}
+
+#results_div {
+    background-color: #b3b3b3;
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+
+#image {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+}
+
+.form_button {
+    /* height: 15px;
+    width: 35px; */
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    width: 80px;
+    height:25px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: dimgray;
+}
+
+.result_label {
+    font-size: 20px;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+}
+
+#confidence_paragraph {
+    text-align: justify;
+    margin: 0 auto;
+    width: 80%;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Which Lepidoptera...</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	<script src="static/main.js"></script>
+</head>
+<body>
+	<h1>Which Lepidoptera</h1>
+	<div id="form_div">
+		<h2>Submit picture</h2>
+		<br>
+		<form action="/classify_image" method="POST" enctype="multipart/form-data" id=form>
+			<label>Select a file: </label>
+			<input type="file" name="image_to_classify" multiple/>
+			<br>
+			<br>
+			<label>Choose confidence level: </label>
+			<input type="range" min="0" max="100" value="10", name="confidence_slider", oninput="sliderChange(this.value)">
+			<label id="slider_value">10%</label>
+			<br>
+			<br>
+			<input type="submit" name="Classify" value="Classify">
+		</form>
+
+		<br>
+		<br>
+		<br>
+
+		<h2>About the Confidence Level</h2>
+		<p id="confidence_paragraph">
+			The confidence level is a way of quantifying the uncertainty of an estimate.
+			A high confidence level means that there is more certainty in the result of 
+			a classification.</p>
+		<br>
+		<p id="confidence_paragraph">
+			Before you submit your images to the model you can choose
+			a confidence level threshold, so no returned result is lower than what you
+			chose.</p>	
+		<br>
+		<p id="confidence_paragraph">
+			Each result is returned with a specific background color.</p>
+		<br>
+		<ul id="confidence_paragraph">
+			<li>Green: Confidence level is greater or equal than 70%.</li>
+			<li>Yellow: Confidence level is greater or equal than 40% and less than 70%.</li>
+			<li>Red: Confidence level is less than 40%.</li>
+		</ul>
+	</div>
+
+	<div id="results_div">
+		<h2>Results</h2>
+		{% for key in species_list %}
+			<img src="{{url_for('static', filename=key)}}" id="image">
+			<br>
+			<br>
+			{% for item in species_list[key] %}
+				<div id="{{ item }}" class="result_label"></div>
+				<script>
+					var string = "{{ item }}"
+					console.log(string);
+					string = string.split(":");
+
+					document.getElementById("{{ item }}").innerHTML = string[0] + ": " + string[1];
+
+					var confidence = parseFloat(string[0]);
+
+					if(confidence < 40) {
+						document.getElementById("{{ item }}").style.backgroundColor = "rgb(255, 77, 77)";
+
+					}
+					else if(confidence >= 40 && confidence < 70) {
+						document.getElementById("{{ item }}").style.backgroundColor = "Yellow";
+					}
+					else if(confidence >= 70 && confidence <= 100) {
+						document.getElementById("{{ item }}").style.backgroundColor = "Green";
+					}
+
+				</script>
+				<br>
+			{% endfor %}
+			<br>
+			<br>
+			<br>
+		{% endfor %}
+	
+	</div>
+
+</body>
+</html>
