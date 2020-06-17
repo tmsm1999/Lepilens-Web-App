@@ -19,7 +19,7 @@ class Model:
 
     def classify(self, file, maxResults, min_confidence):
 
-        print("Confidence level %f" % min_confidence);
+        # print("Confidence level %f" % min_confidence);
 
         with Image.open(file).resize((self.width, self.height)) as img:
             input_data = np.expand_dims(img, axis=0)
@@ -32,7 +32,7 @@ class Model:
             top_categories = results.argsort()[::-1]
             if maxResults != None:
                 top_categories = top_categories[:maxResults]
-            print("==> %s <==" % file)
+            # print("==> %s <==" % file)
 
             final_results = []
 
