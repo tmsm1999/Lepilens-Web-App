@@ -37,9 +37,9 @@ Pyronia_cecilia
 Boloria_selene
 Cupido_minimus
 Pieris_rapae
-Argynnis_adippe
+Fabriciana_adippe
 Callophrys_rubi
-Argynnis_aglaja
+Speyeria_aglaja
 Apatura_ilia
 Tomares_ballus
 Colias_alfacariensis
