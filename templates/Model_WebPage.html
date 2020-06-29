@@ -3,15 +3,15 @@
 <head>
 	<title>Which Lepidoptera...</title>
 	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-	<script src="static/main.js"></script>
+	<script src="{{ url_for('static', filename='main.js') }}"></script>
 </head>
 <body>
 	<h1>Which Lepidoptera</h1>
 	<div id="form_div">
-		<h2>Submit picture</h2>
+		<h2>Submit pictures</h2>
 		<br>
 		<form action="{{ url_for('classify_image') }}" method="POST" enctype="multipart/form-data" id=form>
-			<label>Select a file: </label>
+			<label>Select files: </label>
 			<input type="file" name="image_to_classify" multiple/>
 			<br>
 			<br>
@@ -51,7 +51,7 @@
 	<div id="results_div">
 		<h2>Results</h2>
 		{% for key in species_list %}
-			<img src="{{url_for('static', filename=key)}}" id="image">
+			<img src="{{url_for('static', filename='images/'+key)}}" id="image">
 			<br>
 			<br>
 			{% for item in species_list[key] %}

@@ -2,7 +2,6 @@ from PIL import Image
 import tensorflow as tf
 import numpy as np
 
-pic_number = 0
 
 class Model:
 
@@ -21,7 +20,7 @@ class Model:
 
         # print("Confidence level %f" % min_confidence);
 
-        with Image.open(file).resize((self.width, self.height)) as img:
+        with Image.open(file).convert('RGB').resize((self.width, self.height)) as img:
             input_data = np.expand_dims(img, axis=0)
             if self.floating_model:
                 input_data = (np.float32(input_data) - 127.5) / 127.5
@@ -44,10 +43,7 @@ class Model:
                 if min_confidence != None and r < min_confidence:
                     break
 
-                global pic_number
-
-                res = "{:6.2f}%: {}: %d".format(r*100, self.labels[i], pic_number)
-                pic_number += 1
+                res = "{:6.2f}%: {}".format(r*100, self.labels[i])
                 final_results.append(res)
 
 
