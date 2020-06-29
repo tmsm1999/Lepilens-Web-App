@@ -11,8 +11,6 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 from flask import Flask, render_template, request
 import modelo
 
-
-
 debug_output=False
 min_confidence = 0.05
 max_results = 5

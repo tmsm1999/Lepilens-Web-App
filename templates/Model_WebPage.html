@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Which Lepidoptera...</title>
+	<title>Portuguese Butterflies</title>
 	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 	<script src="{{ url_for('static', filename='main.js') }}"></script>
 </head>
 <body>
-	<h1>Which Lepidoptera</h1>
+
+	<h1>Portuguese Butterflies</h1>
+
+	<div class="contacts">
+		<p>Developed by: Tomás M. S. Mamede</p>
+		<p>Supervisors: Luís M. B. Lopes & Eduardo R. B. Marques</p>
+		<p>Contacts: {tsmamede, lblopes, edrdo}@dcc.fc.up.pt</p>
+		<p>Department of Computer Science</p>
+		<p>Faculty of Sciences</p> 
+		<p>University of Porto</p>
+	</div>
+
 	<div id="form_div">
 		<h2>Submit pictures</h2>
 		<br>
@@ -46,6 +57,7 @@
 			<li>Yellow: Confidence level is greater or equal than 40% and less than 70%.</li>
 			<li>Red: Confidence level is less than 40%.</li>
 		</ul>
+
 	</div>
 
 	<div id="results_div">
@@ -61,7 +73,7 @@
 					console.log(string);
 					string = string.split(":");
 
-					document.getElementById("{{ item }}").innerHTML = string[0] + ": " + string[1];
+					document.getElementById("{{ item }}").innerHTML = string[1] + ": " + string[0] + " confidence";
 
 					var confidence = parseFloat(string[0]);
 
@@ -85,6 +97,7 @@
 		{% endfor %}
 	
 	</div>
+
 
 </body>
 </html>
