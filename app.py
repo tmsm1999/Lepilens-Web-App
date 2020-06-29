@@ -1,7 +1,16 @@
 import os
+import time
+import sys
 import shutil
-import modelo
+import warnings
+import uuid
+import logging
+# Supress deprecation warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
+
 from flask import Flask, render_template, request
+import modelo
+
 
 
 debug_output=False
@@ -16,7 +25,12 @@ label_file = application.root_path + "/dict.txt"
 
 model = modelo.Model(model_file, label_file)
 
-application.config["IMAGE_STATIC"] = application.root_path + "/static"
+application.config["IMAGE_STATIC"] = application.root_path + "/static/images"
+application.config["LOG_FILE"] = application.root_path + "/lepidoptera.log"
+logging.basicConfig(level=logging.INFO,
+                     format='%(asctime)s - %(levelname)s - %(message)s', 
+                     datefmt='%Y-%m-%d %H:%M:%S',
+                     filename=application.config['LOG_FILE'])
 
 @application.route("/")
 def initHTML():
@@ -35,22 +49,27 @@ def classify_image():
     if request.method == "POST":
         if request.files:
             images = request.files.getlist("image_to_classify")
-
-            for image in images:
-                image.save(os.path.join(application.config["IMAGE_STATIC"], image.filename))
-
-                path_to_image = os.path.join(application.config["IMAGE_STATIC"], image.filename)
+            if len(images) > 1 or images[0].filename != '':
+              for image in images:
+                print("%s / %s" % (image.filename, image.mimetype), file=sys.stderr)
+                if image.mimetype != 'image/png' and image.mimetype != 'image/jpeg':
+                  logging.error('\'%s\' - invalid MIME type \'%s\'' % (image.filename, image.mimetype))
+                  continue
+                _, extension = os.path.splitext(image.filename)
+                unique_filename = str(uuid.uuid4()) +  extension
+                path_to_image = os.path.join(application.config["IMAGE_STATIC"], unique_filename)
+                image.save(path_to_image)
+                logging.info('\'%s\' - saved onto \'%s\'' % (image.filename,unique_filename))
+                t = time.time()
                 res_list = model.classify(path_to_image, max_results, min_confidence)
-
-                if debug_output:
-                   print(len(res_list))
-
-                dictionary[image.filename] = res_list
+                t = time.time() - t
+                logging.info('\'%s\' - %d results in %d milliseconds for min confidence level %f' % (image.filename,len(res_list), int(t * 1e+03), min_confidence))
+                dictionary[unique_filename] = res_list
                 if len(res_list) == 0:
-                    dictionary[image.filename] = ["No results for the chosen confidence level"]
-                if debug_output:
+                    dictionary[unique_filename] = ["No results for the chosen confidence level"]
+                else:
                   for elem in res_list:
-                    print(elem)
+                    logging.info('\'%s\' - %s' % (image.filename, elem))
 
     return render_template('Model_WebPage.html', species_list=dictionary)
 
