@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portuguese Butterflies</title>
+	<title>Lepilens Web</title>
 	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 	<script src="{{ url_for('static', filename='main.js') }}"></script>
 </head>
 <body>
 
-	<h1>Portuguese Butterflies</h1>
+	<div style="z-index: -1; position: fixed; left: 50%; margin-right: -50%; transform: translate(-50%, 0%)">
+		<img src="../static/background.png" alt="Lepilens logo" style="opacity: 0.5;">
+	</div>
+
+	<h1>Lepilens Web</h1>
 
 	<div class="contacts">
 		<p>Developed by: Tomás M. S. Mamede</p>
 		<p>Supervisors: Luís M. B. Lopes & Eduardo R. B. Marques</p>
 		<p>Contacts: {tsmamede, lblopes, edrdo}@dcc.fc.up.pt</p>
 		<p>Department of Computer Science</p>
-		<p>Faculty of Sciences</p> 
+		<p>Faculty of Sciences</p>
 		<p>University of Porto</p>
+		<br>
+		<br>
+		<a href="https://testflight.apple.com/join/h4vpWJoe">
+			 <img src="../static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Lepilens logo">
+		</a>
 	</div>
 
 	<div id="form_div">
-		<h2>Submit pictures</h2>
+		<h2>Submit Images</h2>
+
 		<br>
 		<form action="{{ url_for('classify_image') }}" method="POST" enctype="multipart/form-data" id=form>
 			<label>Select files: </label>
@@ -41,13 +51,13 @@
 		<h2>About the Confidence Level</h2>
 		<p id="confidence_paragraph">
 			The confidence level is a way of quantifying the uncertainty of an estimate.
-			A high confidence level means that there is more certainty in the result of 
+			A high confidence level means that there is more certainty in the result of
 			a classification.</p>
 		<br>
 		<p id="confidence_paragraph">
 			Before you submit your images to the model you can choose
 			a confidence level threshold, so no returned result is lower than what you
-			chose.</p>	
+			chose.</p>
 		<br>
 		<p id="confidence_paragraph">
 			Each result is returned with a specific background color.</p>
@@ -57,6 +67,52 @@
 			<li>Yellow: Confidence level is greater or equal than 40% and less than 70%.</li>
 			<li>Red: Confidence level is less than 40%.</li>
 		</ul>
+
+		<br>
+		<br>
+		<br>
+
+		<h2>What is Lepilens?</h2>
+		<p id="confidence_paragraph">
+			Butterflies play an essential role in the natural ecosystem as pollinators and as food for other
+			animals in all stages of their life cycle. Their intricate relationships with plants and animals
+			means that they are often the first to be endangered if an ecosystem’s delicate balance is disturbed.
+			Thus, the occurrence of certain species and their numbers are often used as indicators of ecosystem health.</p>
+		<br>
+		<p id="confidence_paragraph">
+			Lepilens is an iOS and Web application that aims to connect its users with nature and butterflies.
+			Using Lepilens anyone can become an expert in Lepidoptera and find out the taxonomic classification of spotted
+			butterflies. Lepilens can classify 134 different species of butterflies that can be found in Portugal
+			and across Europe.</p>
+
+		<br>
+		<br>
+		<br>
+
+		<h2>Acknowledgements</h2>
+		<p id="confidence_paragraph">
+			This project is the birthchild of an amazing project I worked on during the last semester of my
+			Bachelor's Degree in Computer Scince. I want to express my deep and sincere gratitude
+			to Professor Luís B. Lopes and Professor Eduardo R. B. Marques whose caring supervision, thoughtful guidance,
+			deep knowledge and valuable feedback encouraged me throughout the whole project and development process
+			of the applications for iOS and Web.</p>
+		<br>
+		<p id="confidence_paragraph">
+			Second, a very special thanks to my friend and colleague Vasco Cruz who designed the icon for Lepilens
+			and created the App Store previews for the iOS version of Lepilens.</p>
+		<br>
+		<p id="confidence_paragraph">
+			Also, I want to acknoledge the work of all my very thoughtful and encouraging beta testers for the
+		iOS version of Lepilens, specially Pedro Gomes and Pedro Carrasco.</p>
+		<br>
+		<p id="confidence_paragraph">
+			In order to build this app and train the Machine Learning model that performs the classification
+			I used images from different sources which are hereby acknowledged: iNaturalist, pyrgus.de,
+			euroButterflies, Lepidoptera Mundi, Lepiforum, Naturdata, Butterflies of France and LEPIDOPTERA
+			(Borboletas) em Portugal Facebook group.</p>
+		<br>
+		<br>
+		<br>
 
 	</div>
 
@@ -68,10 +124,13 @@
 			<br>
 			{% for item in species_list[key] %}
 				<div id="{{ item }}" class="result_label"></div>
+				<div id="family + {{item}}" class="result_label"></div>
+				<div id="common_name + {{item}}" class="result_label"></div>
 				<script>
-					var string = "{{ item }}"
+
+					var string = "{{ item }}";
 					console.log(string);
-					string = string.split(":");
+					string = string.split(": ");
 
 					document.getElementById("{{ item }}").innerHTML = string[1] + ": " + string[0] + " confidence";
 
@@ -79,7 +138,6 @@
 
 					if(confidence < 40) {
 						document.getElementById("{{ item }}").style.backgroundColor = "rgb(255, 77, 77)";
-
 					}
 					else if(confidence >= 40 && confidence < 70) {
 						document.getElementById("{{ item }}").style.backgroundColor = "Yellow";
@@ -88,6 +146,19 @@
 						document.getElementById("{{ item }}").style.backgroundColor = "Green";
 					}
 
+					var species_family = {{ family_dict | tojson }};
+					var names = {{ secundary_name|tojson}};
+
+
+
+					console.log(species_family);
+					console.log(names);
+					console.log("string[1]", string[1]);
+					console.log(species_family[string[1]]);
+
+					document.getElementById("family + {{item}}").innerHTML = "Family: " + species_family[string[1]];
+					document.getElementById("common_name + {{item}}").innerHTML = "Common name: " + names[string[1]];
+
 				</script>
 				<br>
 			{% endfor %}
@@ -95,7 +166,7 @@
 			<br>
 			<br>
 		{% endfor %}
-	
+
 	</div>
 
 
