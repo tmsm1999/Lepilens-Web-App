@@ -5,6 +5,7 @@ import shutil
 import warnings
 import uuid
 import logging
+import json
 # Supress deprecation warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
@@ -23,10 +24,23 @@ label_file = application.root_path + "/dict.txt"
 
 model = modelo.Model(model_file, label_file)
 
+speciesInfoJSON = application.root_path + "/species_info.json"
+file = open("species_info.json")
+data = json.load(file)
+
+family_dict = dict()
+secundary_name = dict()
+iNaturalist_link = dict()
+
+for species in data:
+    family_dict[species["name"]] = species["family"]
+    secundary_name[species["name"]] = species["otherName"]
+    iNaturalist_link[species["name"]] = species["iNatLink"]
+
 application.config["IMAGE_STATIC"] = application.root_path + "/static/images"
 application.config["LOG_FILE"] = application.root_path + "/lepidoptera.log"
 logging.basicConfig(level=logging.INFO,
-                     format='%(asctime)s - %(levelname)s - %(message)s', 
+                     format='%(asctime)s - %(levelname)s - %(message)s',
                      datefmt='%Y-%m-%d %H:%M:%S',
                      filename=application.config['LOG_FILE'])
 
@@ -69,7 +83,8 @@ def classify_image():
                   for elem in res_list:
                     logging.info('\'%s\' - %s' % (image.filename, elem))
 
-    return render_template('Model_WebPage.html', species_list=dictionary)
+
+    return render_template('Model_WebPage.html', species_list=dictionary, family_dict=family_dict, secundary_name=secundary_name, iNaturalist_link=iNaturalist_link)
 
 if __name__ == "__main__":
     application.run()

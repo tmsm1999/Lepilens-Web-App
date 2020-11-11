@@ -14,12 +14,19 @@ h2 {
 html, body {
     height: 100%;
     width: 100%;
-    background-color:#b3b3b3;
+    /* background-color:#b3b3b3; */
+    /* background-size: 65% 93%;
+    background-image: url("../static/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    /* background-size: auto; */
+    /* background-size: cover; */
 }
 
 #form_div {
     margin-top: 10px;
-    background-color:#b3b3b3;
+    /* background-color:#b3b3b3; */
     float: left;
     width: 50%;
     height: 100%;
@@ -34,7 +41,7 @@ html, body {
 
 #results_div {
     margin-top: 10px;
-    background-color: #b3b3b3;
+    /* background-color: #b3b3b3; */
     float: right;
     text-align: center;
     width: 50%;
@@ -84,7 +91,7 @@ input[type="submit"] {
 
 .result_label {
     font-size: 20px;
-    width: 40%;
+    width: 55%;
     margin: 0 auto;
     border-radius: 10px;
     border-color: black;
@@ -95,4 +102,11 @@ input[type="submit"] {
     text-align: justify;
     margin: 0 auto;
     width: 80%;
+}
+
+#download_ios {
+    height: auto;
+    margin: 0 auto;
+    padding: 25px;
+    position: relative;
 }
