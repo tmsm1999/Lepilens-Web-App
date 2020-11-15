@@ -31,11 +31,13 @@ data = json.load(file)
 family_dict = dict()
 secundary_name = dict()
 iNaturalist_link = dict()
+wikipedia_link = dict()
 
 for species in data:
     family_dict[species["name"]] = species["family"]
     secundary_name[species["name"]] = species["otherName"]
     iNaturalist_link[species["name"]] = species["iNatLink"]
+    wikipedia_link[species["name"]] = species["WikipediaLink"]
 
 application.config["IMAGE_STATIC"] = application.root_path + "/static/images"
 application.config["LOG_FILE"] = application.root_path + "/lepidoptera.log"
@@ -84,7 +86,8 @@ def classify_image():
                     logging.info('\'%s\' - %s' % (image.filename, elem))
 
 
-    return render_template('Model_WebPage.html', species_list=dictionary, family_dict=family_dict, secundary_name=secundary_name, iNaturalist_link=iNaturalist_link)
+    return render_template('Model_WebPage.html', species_list=dictionary, family_dict=family_dict,
+    secundary_name=secundary_name, iNaturalist_link=iNaturalist_link, wikipedia_link=wikipedia_link)
 
 if __name__ == "__main__":
     application.run()
