@@ -25,7 +25,7 @@ label_file = application.root_path + "/dict.txt"
 model = modelo.Model(model_file, label_file)
 
 speciesInfoJSON = application.root_path + "/species_info.json"
-file = open("species_info.json")
+file = open("species_info.json", encoding="utf-8")
 data = json.load(file)
 
 family_dict = dict()
