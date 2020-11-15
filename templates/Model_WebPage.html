@@ -126,6 +126,14 @@
 				<div id="{{ item }}" class="result_label"></div>
 				<div id="family + {{item}}" class="result_label"></div>
 				<div id="common_name + {{item}}" class="result_label"></div>
+				<div id="links_div" style="margin-top: 5px;">
+					<a id="inaturalist + {{item}}" href="">
+						<img src="../static/inaturalist_logo.png" alt="iNaturalist Logo">
+					</a>
+					<a id="wikipedia + {{item}}" href="">
+						<img src="../static/wikipedia_logo.png" alt="Wikipedia Logo">
+					</a>
+				</div>
 				<script>
 
 					var string = "{{ item }}";
@@ -147,17 +155,14 @@
 					}
 
 					var species_family = {{ family_dict | tojson }};
-					var names = {{ secundary_name|tojson}};
-
-
-
-					console.log(species_family);
-					console.log(names);
-					console.log("string[1]", string[1]);
-					console.log(species_family[string[1]]);
+					var names = {{ secundary_name | tojson }};
+					var wiki_link = {{ wikipedia_link | tojson }};
+					var inat_link = {{ iNaturalist_link | tojson }};
 
 					document.getElementById("family + {{item}}").innerHTML = "Family: " + species_family[string[1]];
 					document.getElementById("common_name + {{item}}").innerHTML = "Common name: " + names[string[1]];
+					document.getElementById("wikipedia + {{item}}").href = wiki_link[string[1]];
+					document.getElementById("inaturalist + {{item}}").href = inat_link[string[1]];
 
 				</script>
 				<br>
@@ -166,9 +171,6 @@
 			<br>
 			<br>
 		{% endfor %}
-
 	</div>
-
-
 </body>
 </html>
