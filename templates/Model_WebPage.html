@@ -8,7 +8,7 @@
 <body>
 
 	<div style="z-index: -1; position: fixed; left: 50%; margin-right: -50%; transform: translate(-50%, 0%)">
-		<img src="../static/background.png" alt="Lepilens logo" style="opacity: 0.5;">
+		<img src="{{ url_for('static', filename='background.png') }}" alt="Lepilens logo" style="opacity: 0.5;">
 	</div>
 
 	<h1>Lepilens Web</h1>
@@ -23,7 +23,7 @@
 		<br>
 		<br>
 		<a href="https://testflight.apple.com/join/h4vpWJoe">
-			 <img src="../static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Lepilens logo">
+			<img src="{{ url_for('static', filename='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg') }}" alt="Download on the App store">
 		</a>
 	</div>
 
@@ -128,10 +128,10 @@
 				<div id="common_name + {{item}}" class="result_label"></div>
 				<div id="links_div" style="margin-top: 5px;">
 					<a id="inaturalist + {{item}}" href="">
-						<img src="../static/inaturalist_logo.png" alt="iNaturalist Logo">
+						<img src="{{ url_for('static', filename='inaturalist_logo.png') }}" alt="iNaturalist Logo">
 					</a>
 					<a id="wikipedia + {{item}}" href="">
-						<img src="../static/wikipedia_logo.png" alt="Wikipedia Logo">
+						<img src="{{ url_for('static', filename='wikipedia_logo.png') }}" alt="Wikipedia Logo">
 					</a>
 				</div>
 				<script>
