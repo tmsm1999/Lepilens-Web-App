@@ -1,12 +1,12 @@
 h1 {
     text-align: center;
-    font-family: "Marker Felt";
+    font-family: "Exo";
     font-size: 65px;
 }
 
 h2 {
     text-align: center;
-    font-family: "Avenir Next";
+    font-family: "Exo";
     font-size: 25px;
     margin-top: 10px;;
 }
@@ -86,7 +86,7 @@ input[type="submit"] {
     height:25px;
     border-radius: 10px;
     border-color: white;
-    background-color: dimgray;
+    background-color: white;
 }
 
 .result_label {

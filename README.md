@@ -1,6 +1,6 @@
 # Lepilens-Web-App
 
-Access the Web Version [HERE](https://rubisco.duckdns.org/lepilens2/).
+Access the Web Version of Lepilens [HERE](https://rubisco.dcc.fc.up.pt/lepilens/).
 
 Lepilens aims to connect its users with nature and butterflies, and help citizen science efforts in mapping biodiversity. Butterflies play an essential role in the natural ecosystem as pollinators and as food for other animals in all stages of their life cycle. Their intricate relationships with plants and animals means that they are often the first to be endangered if an ecosystem’s delicate balance is disturbed. Thus, the occurrence of certain species and their numbers are often used as indicators of ecosystem health.
 
