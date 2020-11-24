@@ -40,7 +40,7 @@ for species in data:
     wikipedia_link[species["name"]] = species["WikipediaLink"]
 
 application.config["IMAGE_STATIC"] = application.root_path + "/static/images"
-application.config["LOG_FILE"] = application.root_path + "/lepidoptera.log"
+application.config["LOG_FILE"] = application.root_path + "/lepilens.log"
 logging.basicConfig(level=logging.INFO,
                      format='%(asctime)s - %(levelname)s - %(message)s',
                      datefmt='%Y-%m-%d %H:%M:%S',
@@ -48,7 +48,7 @@ logging.basicConfig(level=logging.INFO,
 
 @application.route("/")
 def initHTML():
-    return render_template('Model_WebPage.html')
+    return render_template('Model_WebPage.html',confidence_slider_initially=10)
 
 @application.route("/classify_image", methods=["GET", "POST"])
 def classify_image():
@@ -79,14 +79,12 @@ def classify_image():
                 t = time.time() - t
                 logging.info('\'%s\' - %d results in %d milliseconds for min confidence level %f' % (image.filename,len(res_list), int(t * 1e+03), min_confidence))
                 dictionary[unique_filename] = res_list
-                if len(res_list) == 0:
-                    dictionary[unique_filename] = ["No results for the chosen confidence level"]
-                else:
+                if len(res_list) != 0:
                   for elem in res_list:
                     logging.info('\'%s\' - %s' % (image.filename, elem))
 
 
-    return render_template('Model_WebPage.html', species_list=dictionary, family_dict=family_dict,
+    return render_template('Model_WebPage.html', confidence_slider_initially=confidence_slider,species_list=dictionary, family_dict=family_dict,
     secundary_name=secundary_name, iNaturalist_link=iNaturalist_link, wikipedia_link=wikipedia_link)
 
 if __name__ == "__main__":
