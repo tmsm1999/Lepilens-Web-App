@@ -8,37 +8,60 @@
 <body>
 
 	<div style="z-index: -1; position: fixed; left: 50%; margin-right: -50%; transform: translate(-50%, 0%)">
-		<img src="{{ url_for('static', filename='background.png') }}" alt="Lepilens logo" style="opacity: 0.5;">
+		<img src="{{ url_for('static', filename='background.png') }}" alt="Lepilens logo" style="opacity: 0.15;">
 	</div>
 
-	<h1>Lepilens Web</h1>
+	<h1>Lepilens</h1>
 
 	<div class="contacts">
-		<p>Developed by: Tomás M. S. Mamede</p>
-		<p>Supervisors: Luís M. B. Lopes & Eduardo R. B. Marques</p>
-		<p>Contacts: {tsmamede, lblopes, edrdo}@dcc.fc.up.pt</p>
-		<p>Department of Computer Science</p>
-		<p>Faculty of Sciences</p>
-		<p>University of Porto</p>
-		<br>
-		<br>
 		<a href="https://testflight.apple.com/join/h4vpWJoe">
 			<img src="{{ url_for('static', filename='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg') }}" alt="Download on the App store">
 		</a>
 	</div>
 
 	<div id="form_div">
-		<h2>Submit Images</h2>
+		<h2>What is Lepilens?</h2>
+		<br>
+		<p id="confidence_paragraph">
+		<b>Lepilens</b> is an iOS and Web application for automatic classification of butterfly (<i>Lepidoptera</i>)
+		photos employing deep learning techniques.
+		Currently,  Lepilens can classify 134 different species of diurnal butterflies 
+		that can be found in Portugal and across Europe.
+		</p>
+		<br>
+		<p id="confidence_paragraph">
+		        Lepilens aims to connect its users with nature and butterflies, and help citizen science
+			efforts in mapping biodiversity.
+			Butterflies play an essential role in the natural ecosystem as pollinators and as food for other
+			animals in all stages of their life cycle. Their intricate relationships with plants and animals
+			means that they are often the first to be endangered if an ecosystem’s delicate balance is disturbed.
+			Thus, the occurrence of certain species and their numbers are often used as indicators of ecosystem health.</p>
+		<br>
+		<br>
+		<br>
 
+		<h2>Try it out!</h2>
+		<br>
+	        <p id="confidence_paragraph">
+		Provide photos of butterflies in <b>JPEG</b> or <b>PNG</b> format with at least 300x300 pixels (high
+		resolution is not required). Better results are obtained for close-up photos
+		of single butterflies (crop photos if required).
+		Classification results and corresponding confidence levels will appear below each image <b>on the right of this page</b> 
+		[<b>&rarr;</b>].
+		</p>
 		<br>
 		<form action="{{ url_for('classify_image') }}" method="POST" enctype="multipart/form-data" id=form>
-			<label>Select files: </label>
+			<img src="{{ url_for('static', filename='logo.png') }}"><br><br>
+			<label>Photos: </label>
 			<input type="file" name="image_to_classify" multiple/>
 			<br>
 			<br>
-			<label>Choose confidence level: </label>
-			<input type="range" min="0" max="100" value="10", name="confidence_slider", oninput="sliderChange(this.value)">
-			<label id="slider_value">10%</label>
+			<label>Confidence threshold: </label>
+			<input type="range" min="0" max="100" value="{{ confidence_slider_initially }}", name="confidence_slider", oninput="sliderChange(this.value)">
+			<label id="slider_value">{{ confidence_slider_initially }} %</label>
+			<br>
+			<br>
+			[results with confidence level below this threshold will not be shown]
 			<br>
 			<br>
 			<input type="submit" name="Classify" value="Classify">
@@ -47,122 +70,123 @@
 		<br>
 		<br>
 		<br>
-
-		<h2>About the Confidence Level</h2>
-		<p id="confidence_paragraph">
-			The confidence level is a way of quantifying the uncertainty of an estimate.
-			A high confidence level means that there is more certainty in the result of
-			a classification.</p>
+		<h2>Inception</h2>
+                <p id="confidence_paragraph">
+		Lepilens was developed by <b><a href="mailto:tsmamede@dcc.fc.up.pt">Tomás M. S. Mamede</a></b> in 
+		the scope of a project of the Computer Science BSc degree at <b><a href="https://www.dcc.fc.up.pt">DCC/FCUP</a></b>,
+		under the supervision of <b><a href="https://www.dcc.fc.up.pt/~lblopes">Luís M. B. Lopes</a></b>
+		and <b><a href="https://www.dcc.fc.up.pt/~edrdo">Eduardo R. B. Marques</a></b>.
+		</p>
 		<br>
-		<p id="confidence_paragraph">
-			Before you submit your images to the model you can choose
-			a confidence level threshold, so no returned result is lower than what you
-			chose.</p>
+		<p id="confidence_paragraph">For further details check:
 		<br>
-		<p id="confidence_paragraph">
-			Each result is returned with a specific background color.</p>
+		<img height="20" src="{{ url_for('static', filename='pdf.png') }}">
+		&nbsp; <b><a href="{{ url_for('static', filename='tmamede_lepidoptera.pdf') }}">On using Deep Learning for Automatic Taxonomic Identification of Butterflies</a></b> (Tomás M. S. Mamede project report)
 		<br>
-		<ul id="confidence_paragraph">
-			<li>Green: Confidence level is greater or equal than 70%.</li>
-			<li>Yellow: Confidence level is greater or equal than 40% and less than 70%.</li>
-			<li>Red: Confidence level is less than 40%.</li>
-		</ul>
-
+		<img height="20" src="{{ url_for('static', filename='github.png') }}"> &nbsp; the GitHub repositories 
+		for the <b><a href="https://github.com/tmsm1999/Lepilens-iOS">iOS</a> and <a href="https://github.com/tmsm1999/Lepilens-Web-App">Web</a></b>
+                versions of Lepilens.
+		</p>
 		<br>
 		<br>
 		<br>
-
-		<h2>What is Lepilens?</h2>
-		<p id="confidence_paragraph">
-			Butterflies play an essential role in the natural ecosystem as pollinators and as food for other
-			animals in all stages of their life cycle. Their intricate relationships with plants and animals
-			means that they are often the first to be endangered if an ecosystem’s delicate balance is disturbed.
-			Thus, the occurrence of certain species and their numbers are often used as indicators of ecosystem health.</p>
-		<br>
-		<p id="confidence_paragraph">
-			Lepilens is an iOS and Web application that aims to connect its users with nature and butterflies.
-			Using Lepilens anyone can become an expert in Lepidoptera and find out the taxonomic classification of spotted
-			butterflies. Lepilens can classify 134 different species of butterflies that can be found in Portugal
-			and across Europe.</p>
-
-		<br>
-		<br>
-		<br>
-
 		<h2>Acknowledgements</h2>
 		<p id="confidence_paragraph">
-			This project is the birthchild of an amazing project I worked on during the last semester of my
-			Bachelor's Degree in Computer Scince. I want to express my deep and sincere gratitude
-			to Professor Luís B. Lopes and Professor Eduardo R. B. Marques whose caring supervision, thoughtful guidance,
-			deep knowledge and valuable feedback encouraged me throughout the whole project and development process
-			of the applications for iOS and Web.</p>
+		Special and personal thanks are due to:
+	        <ul id="confidence_paragraph">	
+			<li><b>Vasco Cruz</b>, who designed the Lepilens icon 
+			and created the App Store previews for the iOS version of Lepilens.</li>
+		<li>all the beta testers of the iOS app for their thoughtful and encouraging feedback,
+			specially <b>Pedro Gomes</b>, <b>Pedro Carrasco</b>, <b>Fábio Reis</b> and <b>Ken Kocienda</b>.</li>
+		<li><b>Eduardo Marabuto</b>, <b>Pedro Pires</b>, <b>Ernestino Maravalhas</b> and other
+		<b><a href="https://www.facebook.com/groups/LepidopteraPortugal">Lepidoptera Portugal Facebook group</a></b> members for their encouragement and feedback throughout the project.</li>
+		</ul>
 		<br>
 		<p id="confidence_paragraph">
-			Second, a very special thanks to my friend and colleague Vasco Cruz who designed the icon for Lepilens
-			and created the App Store previews for the iOS version of Lepilens.</p>
-		<br>
-		<p id="confidence_paragraph">
-			Also, I want to acknoledge the work of all my very thoughtful and encouraging beta testers for the
-		iOS version of Lepilens, specially Pedro Gomes, Pedro Carrasco and Ken Kocienda.</p>
-		<br>
-		<p id="confidence_paragraph">
-			In order to build this app and train the Machine Learning model that performs the classification
-			I used images from different sources which are hereby acknowledged: iNaturalist, pyrgus.de,
-			euroButterflies, Lepidoptera Mundi, Lepiforum, Naturdata, Butterflies of France and LEPIDOPTERA
-			(Borboletas) em Portugal Facebook group.</p>
-		<br>
-		<br>
-		<br>
-
+		The Lepilens deep learning model was built using cloud services 
+		generously provided through the <b><a href="https://edu.google.com/programs/credits/research/">
+		Google Cloud research credits program</a></b>.
+                The model was trained using selected photos mostly taken 
+		from the <b><a href="https://www.gbif.org/dataset/50c9509d-22c7-4a22-a47d-8c48425ef4a7">iNaturalist Research-grade Observations</a></b> dataset, published at <b><a href="https://gbif.org">GBIF</a></b> by <b><a href="https://inaturalist.org">iNaturalist</a></b>. Complementary training photos for less common species were taken from:
+		<ul id="confidence_paragraph">
+			<li><b><a href="https://www.facebook.com/groups/LepidopteraPortugal">Lepidoptera Portugal Facebook group</a></b></li>
+			<li><b><a href="https://lepidopterapt.wixsite.com/lusoborboletas2">Lusoborboletas</a></b> by Pedro Pires</li>
+			<li><b><a href="https://leps.it">Moths and Butterflies of Europe and North Africa</a></b> by Paolo Mazzei, Daniel Morel, Raniero Panfili</li>
+			<li><b><a href="http://jasius.hu/lepidopterology/lepkek.html">Butterflies in Hungary</a></b> by Ádám Gór</li>
+			<li><b><a href="http://pyrgus.de">Lepidoptera and their ecology</a></b> by Wolfgang Wagner</li>
+			<li><b><a href="http://www.lepiforum.de">Lepiforum</a></b> by Erwin Rennwald and Jürgen Rodeland</li>
+			<li><b><a href="www.eurobutterflies.com/">euroButterflies</a></b> by Matt Rowlings</li>
+			<li><b><a href="https://www.butterfliesoffrance.com">Butterflies of France</a></b> by Roger Gibbons</li>
+			<li><b><a href="https://ukbutterflies.co.uk">UK Butterflies</a></b> by Peter Eeles</li>
+			
+                </p>
+		<br><br><br>
 	</div>
 
 	<div id="results_div">
+		{% set highConfColor = "rgba(0, 255, 0, 0.3)" %}
+		{% set mediumConfColor = "rgba(255, 255, 0, 0.5)" %}
+		{% set lowConfColor = "rgba(255, 0, 0, 0.3)" %}
 		<h2>Results</h2>
+		<div class="result_label">
+		 <b>Confidence levels for classification</b>
+		 <br>
+		  <font size="-1">
+			<center>
+			<table>
+			<tr>
+			<td style="background-color: {{highConfColor}}"><b>High (> 70%)</b></td>
+			<td>&nbsp;</td>
+			<td style="background-color: {{mediumConfColor}}"><b>Medium (40 to 70%)</b></td>
+			<td>&nbsp;</td>
+			<td style="background-color: {{lowConfColor}}"><b>Low (< 40 %)</b></td>
+			</tr></table>
+			</center>
+		 </font>
+		</div>
 		{% for key in species_list %}
+			<br>
 			<img src="{{url_for('static', filename='images/'+key)}}" id="image">
 			<br>
 			<br>
+		        {% if species_list[key]|length == 0 %}
+			<div class="result_label"><div style="background-color: {{lowConfColor}}">Unable to classify photo!</div></div>
+		        {% endif %}
 			{% for item in species_list[key] %}
-				<div id="{{ item }}" class="result_label"></div>
-				<div id="family + {{item}}" class="result_label"></div>
-				<div id="common_name + {{item}}" class="result_label"></div>
+				{% set ekey = "{}.{}".format(key,loop.index) %}
+				<div id="{{ ekey }}.species" class="result_label"></div>
+				<div id="{{ ekey }}.family" class="result_label"></div>
+				<div id="{{ ekey }}.common_name" class="result_label"></div>
 				<div id="links_div" style="margin-top: 5px;">
-					<a id="inaturalist + {{item}}" href="">
-						<img src="{{ url_for('static', filename='inaturalist_logo.png') }}" alt="iNaturalist Logo">
-					</a>
-					<a id="wikipedia + {{item}}" href="">
-						<img src="{{ url_for('static', filename='wikipedia_logo.png') }}" alt="Wikipedia Logo">
-					</a>
+					<a id="{{ ekey }}.inaturalist" href=""><img height="20" src="{{ url_for('static', filename='inaturalist_logo.png') }}" alt="iNaturalist Logo"></a>
+					<a id="{{ ekey }}.wikipedia" href=""><img height="20" src="{{ url_for('static', filename='wikipedia_logo.png') }}" alt="Wikipedia Logo"></a>
 				</div>
 				<script>
-
-					var string = "{{ item }}";
-					console.log(string);
-					string = string.split(": ");
-
-					document.getElementById("{{ item }}").innerHTML = string[1] + ": " + string[0] + " confidence";
-
-					var confidence = parseFloat(string[0]);
+                                        var score="{{ item[0] }}"
+                                        var species="{{ item[1] }}"
+					var confidence = parseFloat(score);
+                                        var color;
 
 					if(confidence < 40) {
-						document.getElementById("{{ item }}").style.backgroundColor = "rgb(255, 77, 77)";
+						color = "{{ lowConfColor }}";
 					}
-					else if(confidence >= 40 && confidence < 70) {
-						document.getElementById("{{ item }}").style.backgroundColor = "Yellow";
+					else if(confidence >= 40 && confidence <= 70) {
+						color = "{{ mediumConfColor }}";
 					}
-					else if(confidence >= 70 && confidence <= 100) {
-						document.getElementById("{{ item }}").style.backgroundColor = "Green";
+					else if(confidence > 70) {
+						color = "{{ highConfColor }}";
 					}
+					document.getElementById("{{ ekey }}.species").innerHTML = "<b><i>" + species + "</i></b> " + score + " confidence";
+					document.getElementById("{{ ekey }}.species").style.backgroundColor = color;
 
 					var species_family = {{ family_dict | tojson }};
 					var names = {{ secundary_name | tojson }};
 					var wiki_link = {{ wikipedia_link | tojson }};
 					var inat_link = {{ iNaturalist_link | tojson }};
-
-					document.getElementById("family + {{item}}").innerHTML = "Family: " + species_family[string[1]];
-					document.getElementById("common_name + {{item}}").innerHTML = "Common name: " + names[string[1]];
-					document.getElementById("wikipedia + {{item}}").href = wiki_link[string[1]];
-					document.getElementById("inaturalist + {{item}}").href = inat_link[string[1]];
+					document.getElementById("{{ ekey }}.family").innerHTML = "Family: <i>" + species_family[species]+ "</i>";
+					document.getElementById("{{ ekey }}.common_name").innerHTML = "Common name: " + names[species];
+					document.getElementById("{{ ekey }}.wikipedia").href = wiki_link[species];
+					document.getElementById("{{ ekey }}.inaturalist").href = inat_link[species];
 
 				</script>
 				<br>

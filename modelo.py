@@ -43,7 +43,7 @@ class Model:
                 if min_confidence != None and r < min_confidence:
                     break
 
-                res = "{:6.2f}%: {}".format(r*100, self.labels[i])
+                res = ("{:6.2f}%".format(r*100), self.labels[i])
                 final_results.append(res)
 
 
