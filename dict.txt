@@ -2,7 +2,7 @@ Pseudophilotes panoptes
 Melanargia ines
 Polyommatus celina
 Hipparchia semele
-Argynnis niobe
+Fabriciana niobe
 Pyrgus onopordi
 Nymphalis antiopa
 Melitaea didyma
@@ -11,7 +11,7 @@ Muschampia proto
 Thymelicus acteon
 Limenitis camilla
 Colias croceus
-Phengaris alcon
+Maculinea alcon
 Iphiclides feisthamelii
 Danaus plexippus
 Melitaea diamina
@@ -37,7 +37,7 @@ Cacyreus marshalli
 Celastrina argiolus
 Pontia daplidice
 Euchloe crameri
-Argynnis adippe
+Fabriciana adippe
 Zizeeria knysna
 Melanargia occitanica
 Tomares ballus
@@ -48,7 +48,7 @@ Lycaena tityrus
 Erynnis tages
 Lycaena bleusei
 Hyponephele lupinus
-Aglais io
+Inachis io
 Hipparchia hermione
 Pyronia tithonus
 Ochlodes sylvanus
@@ -59,7 +59,7 @@ Coenonympha arcania
 Aricia montensis
 Carcharodus baeticus
 Pyrgus serratulae
-Polyommatus bellargus
+Lysandra bellargus
 Brenthis ino
 Laeosopis roboris
 Polyommatus thersites
@@ -70,7 +70,7 @@ Gonepteryx rhamni
 Pseudophilotes baton
 Favonius quercus
 Pyronia cecilia
-Lycaena virgaureae
+Heodes virgaureae
 Arethusana arethusa
 Zerynthia rumina
 Pyronia bathseba
@@ -95,7 +95,7 @@ Aphantopus hyperantus
 Hyponephele lycaon
 Melitaea aetherie
 Gonepteryx cleopatra
-Vanessa cardui
+Cynthia cardui
 Satyrium spini
 Issoria lathonia
 Aglais urticae
@@ -108,7 +108,7 @@ Satyrium esculi
 Melitaea parthenoides
 Anthocharis euphenoides
 Boloria dia
-Argynnis aglaja
+Speyeria aglaja
 Lycaena phlaeas
 Glaucopsyche melanops
 Polyommatus icarus
