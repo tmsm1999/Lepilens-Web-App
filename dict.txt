@@ -11,7 +11,7 @@ Muschampia proto
 Thymelicus acteon
 Limenitis camilla
 Colias croceus
-Maculinea alcon
+Phengaris alcon
 Iphiclides feisthamelii
 Danaus plexippus
 Melitaea diamina
@@ -48,7 +48,7 @@ Lycaena tityrus
 Erynnis tages
 Lycaena bleusei
 Hyponephele lupinus
-Inachis io
+Aglais io
 Hipparchia hermione
 Pyronia tithonus
 Ochlodes sylvanus
@@ -70,7 +70,7 @@ Gonepteryx rhamni
 Pseudophilotes baton
 Favonius quercus
 Pyronia cecilia
-Heodes virgaureae
+Lycaena virgaureae
 Arethusana arethusa
 Zerynthia rumina
 Pyronia bathseba
@@ -95,7 +95,7 @@ Aphantopus hyperantus
 Hyponephele lycaon
 Melitaea aetherie
 Gonepteryx cleopatra
-Cynthia cardui
+Vanessa cardui
 Satyrium spini
 Issoria lathonia
 Aglais urticae

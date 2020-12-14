@@ -1,6 +1,6 @@
 [
     {
-        "name":"Inachis io",
+        "name":"Aglais io",
         "family":"Nymphalidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=207977",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Aglais_io",
@@ -553,7 +553,7 @@
         "otherName":"Sooty Copper"
     },
     {
-        "name":"Heodes virgaureae",
+        "name":"Lycaena virgaureae",
         "family":"Lycaenidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=147078",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Scarce_copper",
@@ -700,7 +700,7 @@
         "otherName":"Speckled Wood"
     },
     {
-        "name":"Maculinea alcon",
+        "name":"Phengaris alcon",
         "family":"Lycaenidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=426193",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Phengaris_alcon",
@@ -749,18 +749,11 @@
         "otherName":"Adonis Blue"
     },
     {
-        "name":"Polyommatus celina",
-        "family":"Lycaenidae",
-        "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=473456",
-        "WikipediaLink":"https://en.wikipedia.org/wiki/Polyommatus",
-        "otherName":"Austaut's Blue"
-    },
-    {
-        "name":"Polyommatus icarus",
+        "name":"Polyommatus celina/icarus",
         "family":"Lycaenidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=55641",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Common_blue",
-        "otherName":"Common Blue"
+        "otherName":"Austaut's Blue/Common Blue"
     },
     {
         "name":"Polyommatus thersites",
@@ -924,7 +917,7 @@
         "otherName":"Red Admiral"
     },
     {
-        "name":"Cynthia cardui",
+        "name":"Vanessa cardui",
         "family":"Nymphalidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=48548",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Vanessa_cardui",

@@ -16,3 +16,1211 @@
 2020-11-24 21:20:32 - INFO - 127.0.0.1 - - [24/Nov/2020 21:20:32] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
 2020-11-24 21:20:32 - INFO - 127.0.0.1 - - [24/Nov/2020 21:20:32] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
 2020-11-24 21:20:32 - INFO - 127.0.0.1 - - [24/Nov/2020 21:20:32] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 13:33:35 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 13:33:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 13:33:45 - INFO - 127.0.0.1 - - [14/Dec/2020 13:33:45] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:34:01 - INFO - 'Polyommatus celina.jpg' - saved onto '4916ec06-6e38-4e01-8518-c0ced5cea250.jpg'
+2020-12-14 13:34:01 - INFO - 'Polyommatus celina.jpg' - 2 results in 222 milliseconds for min confidence level 0.100000
+2020-12-14 13:34:01 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 13:34:01 - INFO - 'Polyommatus celina.jpg' - (' 10.59%', 'Polyommatus icarus')
+2020-12-14 13:34:01 - INFO - 127.0.0.1 - - [14/Dec/2020 13:34:01] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 13:34:01 - INFO - 127.0.0.1 - - [14/Dec/2020 13:34:01] "[37mGET /static/images/4916ec06-6e38-4e01-8518-c0ced5cea250.jpg HTTP/1.1[0m" 200 -
+2020-12-14 13:34:01 - INFO - 127.0.0.1 - - [14/Dec/2020 13:34:01] "[37mGET /static/inaturalist_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:34:02 - INFO - 127.0.0.1 - - [14/Dec/2020 13:34:02] "[37mGET /static/wikipedia_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:34:02 - INFO - 127.0.0.1 - - [14/Dec/2020 13:34:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 13:34:27 - INFO - 127.0.0.1 - - [14/Dec/2020 13:34:27] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:34:27 - INFO - 127.0.0.1 - - [14/Dec/2020 13:34:27] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 13:34:27 - INFO - 127.0.0.1 - - [14/Dec/2020 13:34:27] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 13:34:27 - INFO - 127.0.0.1 - - [14/Dec/2020 13:34:27] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 13:34:27 - INFO - 127.0.0.1 - - [14/Dec/2020 13:34:27] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 13:34:27 - INFO - 127.0.0.1 - - [14/Dec/2020 13:34:27] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 13:34:27 - INFO - 127.0.0.1 - - [14/Dec/2020 13:34:27] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:34:27 - INFO - 127.0.0.1 - - [14/Dec/2020 13:34:27] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 13:35:33 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 13:35:35 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:35] "[31m[1mGET /classify_image HTTP/1.1[0m" 400 -
+2020-12-14 13:35:35 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 13:35:40 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:40] "[31m[1mGET /classify_image HTTP/1.1[0m" 400 -
+2020-12-14 13:35:42 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:42] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:35:42 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:42] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 13:35:42 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:42] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 13:35:42 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:42] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 13:35:42 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:42] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:35:42 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:42] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 13:35:42 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:42] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 13:35:42 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:42] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 13:35:43 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 13:35:51 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:51] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:35:51 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:51] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 13:35:51 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:51] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 13:35:51 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:51] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 13:35:51 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:51] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:35:51 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:51] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 13:35:51 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:51] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 13:35:51 - INFO - 127.0.0.1 - - [14/Dec/2020 13:35:51] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 13:35:59 - INFO - 'Polyommatus icarus.jpg' - saved onto '5d2e8f42-5293-4a9f-8e36-4b374763bded.jpg'
+2020-12-14 13:35:59 - INFO - 'Polyommatus icarus.jpg' - 3 results in 211 milliseconds for min confidence level 0.100000
+2020-12-14 13:35:59 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 13:35:59 - INFO - 'Polyommatus icarus.jpg' - (' 14.51%', 'Polyommatus icarus')
+2020-12-14 13:35:59 - INFO - 'Polyommatus icarus.jpg' - (' 13.73%', 'Lysandra bellargus')
+2020-12-14 13:36:00 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:00] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 13:36:00 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:00] "[37mGET /static/images/5d2e8f42-5293-4a9f-8e36-4b374763bded.jpg HTTP/1.1[0m" 200 -
+2020-12-14 13:36:00 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:00] "[37mGET /static/wikipedia_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:36:00 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:00] "[37mGET /static/inaturalist_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:36:53 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 13:36:54 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:54] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:36:55 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 13:36:56 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:56] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:36:56 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:56] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 13:36:56 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:56] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:36:56 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:56] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 13:36:56 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:56] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 13:36:56 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:56] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 13:36:56 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:56] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 13:36:56 - INFO - 127.0.0.1 - - [14/Dec/2020 13:36:56] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 13:37:06 - INFO - 'Polyommatus icarus.jpg' - saved onto '36d0167e-d13e-4590-a622-53ef69e29b6a.jpg'
+2020-12-14 13:37:07 - INFO - 'Polyommatus icarus.jpg' - 3 results in 280 milliseconds for min confidence level 0.100000
+2020-12-14 13:37:07 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 13:37:07 - INFO - 'Polyommatus icarus.jpg' - (' 14.51%', 'Polyommatus icarus')
+2020-12-14 13:37:07 - INFO - 'Polyommatus icarus.jpg' - (' 13.73%', 'Lysandra bellargus')
+2020-12-14 13:37:07 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:07] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 13:37:07 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:07] "[37mGET /static/images/36d0167e-d13e-4590-a622-53ef69e29b6a.jpg HTTP/1.1[0m" 200 -
+2020-12-14 13:37:07 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:07] "[37mGET /static/inaturalist_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:37:07 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:07] "[37mGET /static/wikipedia_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:37:07 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 13:37:28 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:28] "[31m[1mGET /classify_image HTTP/1.1[0m" 400 -
+2020-12-14 13:37:29 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:29] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:37:44 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 13:37:45 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:45] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:37:45 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:45] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 13:37:45 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:45] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 13:37:45 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:45] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 13:37:45 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:45] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 13:37:45 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:45] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:37:45 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:45] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 13:37:45 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:45] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 13:37:46 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 13:37:49 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:49] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:37:49 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:49] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 13:37:49 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:49] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 13:37:49 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:49] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 13:37:49 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:49] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 13:37:49 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:49] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:37:49 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:49] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 13:37:49 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:49] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 13:37:57 - INFO - 'Polyommatus icarus.jpg' - saved onto 'd3c2fd4a-7264-4566-8cb0-47e8287ac6d4.jpg'
+2020-12-14 13:37:57 - INFO - 'Polyommatus icarus.jpg' - 3 results in 156 milliseconds for min confidence level 0.100000
+2020-12-14 13:37:57 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 13:37:57 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 86, in classify_image
+    elem[1] = "Polyommatus celina/icarus"
+TypeError: 'tuple' object does not support item assignment
+2020-12-14 13:37:57 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:57] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 13:37:57 - INFO - 127.0.0.1 - - [14/Dec/2020 13:37:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 13:38:06 - INFO - 127.0.0.1 - - [14/Dec/2020 13:38:06] "[31m[1mGET /classify_image HTTP/1.1[0m" 400 -
+2020-12-14 13:38:08 - INFO - 127.0.0.1 - - [14/Dec/2020 13:38:08] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:38:19 - INFO - 127.0.0.1 - - [14/Dec/2020 13:38:19] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:38:19 - INFO - 127.0.0.1 - - [14/Dec/2020 13:38:19] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 13:38:19 - INFO - 127.0.0.1 - - [14/Dec/2020 13:38:19] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 13:38:19 - INFO - 127.0.0.1 - - [14/Dec/2020 13:38:19] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 13:38:19 - INFO - 127.0.0.1 - - [14/Dec/2020 13:38:19] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 13:38:19 - INFO - 127.0.0.1 - - [14/Dec/2020 13:38:19] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 13:38:19 - INFO - 127.0.0.1 - - [14/Dec/2020 13:38:19] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:38:19 - INFO - 127.0.0.1 - - [14/Dec/2020 13:38:19] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 13:38:21 - INFO - 'Polyommatus icarus.jpg' - saved onto 'cb9658aa-f795-4e98-81d2-2157ccf028c7.jpg'
+2020-12-14 13:38:22 - INFO - 'Polyommatus icarus.jpg' - 3 results in 112 milliseconds for min confidence level 0.100000
+2020-12-14 13:38:22 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 13:38:22 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 86, in classify_image
+    elem[1] = "Polyommatus celina/icarus"
+TypeError: 'tuple' object does not support item assignment
+2020-12-14 13:38:22 - INFO - 127.0.0.1 - - [14/Dec/2020 13:38:22] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 13:38:22 - INFO - 127.0.0.1 - - [14/Dec/2020 13:38:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 13:55:59 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 13:56:03 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:03] "[31m[1mGET /classify_image HTTP/1.1[0m" 400 -
+2020-12-14 13:56:03 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 13:56:08 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:08] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:56:08 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:08] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 13:56:08 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:08] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:56:08 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:08] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 13:56:08 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:08] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 13:56:08 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:08] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 13:56:08 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:08] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 13:56:08 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:08] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 13:56:09 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:09] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:56:09 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:09] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 13:56:09 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:09] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:56:09 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:09] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 13:56:09 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:09] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 13:56:09 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:09] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 13:56:09 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:09] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 13:56:09 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:09] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 13:56:09 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 13:56:21 - INFO - 'Polyommatus icarus.jpg' - saved onto '9aab8ca0-e73a-42b9-bfa5-de847b5f02db.jpg'
+2020-12-14 13:56:21 - INFO - 'Polyommatus icarus.jpg' - 3 results in 254 milliseconds for min confidence level 0.100000
+2020-12-14 13:56:21 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 13:56:21 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 86, in classify_image
+    elem[1] = "Polyommatus celina/icarus"
+TypeError: 'tuple' object does not support item assignment
+2020-12-14 13:56:21 - INFO - 127.0.0.1 - - [14/Dec/2020 13:56:21] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 13:58:42 - INFO - 127.0.0.1 - - [14/Dec/2020 13:58:42] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 13:58:54 - INFO - 'Aglais io.jpg' - saved onto 'dbaca730-f842-4e62-804c-1111cb17eea3.jpg'
+2020-12-14 13:58:54 - INFO - 'Aglais io.jpg' - 1 results in 114 milliseconds for min confidence level 0.100000
+2020-12-14 13:58:54 - INFO - 'Aglais io.jpg' - (' 92.94%', 'Aglais io')
+2020-12-14 13:58:54 - INFO - 127.0.0.1 - - [14/Dec/2020 13:58:54] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 13:58:54 - INFO - 127.0.0.1 - - [14/Dec/2020 13:58:54] "[37mGET /static/images/dbaca730-f842-4e62-804c-1111cb17eea3.jpg HTTP/1.1[0m" 200 -
+2020-12-14 13:58:54 - INFO - 127.0.0.1 - - [14/Dec/2020 13:58:54] "[37mGET /static/inaturalist_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 13:58:54 - INFO - 127.0.0.1 - - [14/Dec/2020 13:58:54] "[37mGET /static/wikipedia_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:01:29 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 14:01:39 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:39] "[31m[1mGET /classify_image HTTP/1.1[0m" 400 -
+2020-12-14 14:01:39 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:01:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:40] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:01:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:40] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:01:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:40] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:01:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:40] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:01:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:40] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:01:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:40] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:01:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:40] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:01:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:40] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:01:41 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:01:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:45] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:01:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:45] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:01:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:45] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:01:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:45] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:01:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:45] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:01:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:45] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:01:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:45] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:01:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:45] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:01:53 - INFO - 'Polyommatus celina.jpg' - saved onto 'ea40e6bd-32c1-429c-b65c-725258d22bd9.jpg'
+2020-12-14 14:01:54 - INFO - 'Polyommatus celina.jpg' - 2 results in 363 milliseconds for min confidence level 0.100000
+2020-12-14 14:01:54 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 14:01:54 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 86, in classify_image
+    elem[1] = "Polyommatus celina/icarus"
+TypeError: 'tuple' object does not support item assignment
+2020-12-14 14:01:54 - INFO - 127.0.0.1 - - [14/Dec/2020 14:01:54] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 14:03:02 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 14:03:03 - INFO - 127.0.0.1 - - [14/Dec/2020 14:03:03] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:03:04 - INFO - 127.0.0.1 - - [14/Dec/2020 14:03:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:03:10 - INFO - 127.0.0.1 - - [14/Dec/2020 14:03:10] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:03:10 - INFO - 127.0.0.1 - - [14/Dec/2020 14:03:10] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:03:10 - INFO - 127.0.0.1 - - [14/Dec/2020 14:03:10] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:03:10 - INFO - 127.0.0.1 - - [14/Dec/2020 14:03:10] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:03:10 - INFO - 127.0.0.1 - - [14/Dec/2020 14:03:10] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:03:10 - INFO - 127.0.0.1 - - [14/Dec/2020 14:03:10] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:03:10 - INFO - 127.0.0.1 - - [14/Dec/2020 14:03:10] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:03:10 - INFO - 127.0.0.1 - - [14/Dec/2020 14:03:10] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:03:14 - INFO - 'Polyommatus icarus.jpg' - saved onto '091e37bd-454f-4a57-9142-0f45813233dc.jpg'
+2020-12-14 14:03:14 - INFO - 'Polyommatus icarus.jpg' - 3 results in 250 milliseconds for min confidence level 0.100000
+2020-12-14 14:03:14 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 14:03:14 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 86, in classify_image
+    elem[1] = "Polyommatus celina/icarus"
+TypeError: 'tuple' object does not support item assignment
+2020-12-14 14:03:14 - INFO - 127.0.0.1 - - [14/Dec/2020 14:03:14] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 14:03:14 - INFO - 127.0.0.1 - - [14/Dec/2020 14:03:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:05:16 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 14:05:16 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:16] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:05:16 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:16] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:05:16 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:16] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:05:16 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:16] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:05:16 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:16] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:05:16 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:16] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:05:16 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:16] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:05:16 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:16] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:05:17 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:05:18 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:18] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:05:18 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:18] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:05:18 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:18] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:05:18 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:18] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:05:18 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:18] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:05:18 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:18] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:05:18 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:18] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:05:18 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:18] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:05:28 - INFO - 'Polyommatus celina.jpg' - saved onto 'e2f9e162-738c-4716-97fb-56e91cb30dd7.jpg'
+2020-12-14 14:05:28 - INFO - 'Polyommatus celina.jpg' - 2 results in 332 milliseconds for min confidence level 0.100000
+2020-12-14 14:05:28 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 14:05:28 - INFO - 'Polyommatus celina.jpg' - (' 10.59%', 'Polyommatus icarus')
+2020-12-14 14:05:28 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:28] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 14:05:28 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:28] "[37mGET /static/images/e2f9e162-738c-4716-97fb-56e91cb30dd7.jpg HTTP/1.1[0m" 200 -
+2020-12-14 14:05:28 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:28] "[37mGET /static/inaturalist_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:05:28 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:28] "[37mGET /static/wikipedia_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:05:28 - INFO - 127.0.0.1 - - [14/Dec/2020 14:05:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:08:40 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 14:08:41 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:41] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:08:41 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:41] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:08:41 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:41] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:08:41 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:41] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:08:41 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:41] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:08:41 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:41] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:08:41 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:41] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:08:41 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:41] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:08:42 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:08:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:45] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:08:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:45] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:08:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:45] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:08:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:45] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:08:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:45] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:08:45 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:45] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:08:46 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:46] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:08:46 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:46] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:08:50 - INFO - 'Polyommatus icarus.jpg' - saved onto '829582b0-5091-4aa4-9ebc-ec4f974aea4e.jpg'
+2020-12-14 14:08:50 - INFO - 'Polyommatus icarus.jpg' - 3 results in 186 milliseconds for min confidence level 0.100000
+2020-12-14 14:08:50 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 14:08:50 - INFO - 'Polyommatus icarus.jpg' - (' 14.51%', 'Polyommatus icarus')
+2020-12-14 14:08:50 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 86, in classify_image
+    if elem[i][1] == "Polyommatus celina" or elem[1] == "Polyommatus icarus":
+IndexError: tuple index out of range
+2020-12-14 14:08:50 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:50] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 14:08:50 - INFO - 127.0.0.1 - - [14/Dec/2020 14:08:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:09:38 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:38] "[31m[1mGET /classify_image HTTP/1.1[0m" 400 -
+2020-12-14 14:09:38 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:09:39 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:39] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:09:39 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:39] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:09:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:40] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:09:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:40] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:09:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:40] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:09:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:40] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:09:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:40] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:09:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:40] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:09:40 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:09:43 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:43] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:09:43 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:43] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:09:43 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:43] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:09:43 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:43] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:09:43 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:43] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:09:43 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:43] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:09:43 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:43] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:09:43 - INFO - 127.0.0.1 - - [14/Dec/2020 14:09:43] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:10:00 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 14:10:04 - INFO - 127.0.0.1 - - [14/Dec/2020 14:10:04] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:10:05 - INFO - 127.0.0.1 - - [14/Dec/2020 14:10:05] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:10:05 - INFO - 127.0.0.1 - - [14/Dec/2020 14:10:05] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:10:05 - INFO - 127.0.0.1 - - [14/Dec/2020 14:10:05] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:10:05 - INFO - 127.0.0.1 - - [14/Dec/2020 14:10:05] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:10:05 - INFO - 127.0.0.1 - - [14/Dec/2020 14:10:05] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:10:05 - INFO - 127.0.0.1 - - [14/Dec/2020 14:10:05] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:10:05 - INFO - 127.0.0.1 - - [14/Dec/2020 14:10:05] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:10:05 - INFO - 127.0.0.1 - - [14/Dec/2020 14:10:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:10:15 - INFO - 'Polyommatus icarus.jpg' - saved onto 'b2144167-6130-417a-92a4-2a3ec5f7ec02.jpg'
+2020-12-14 14:10:15 - INFO - 'Polyommatus icarus.jpg' - 3 results in 143 milliseconds for min confidence level 0.100000
+2020-12-14 14:10:15 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 14:10:15 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 86, in classify_image
+    elem[i][1] = "Polyommatus celina/icarus"
+TypeError: 'str' object does not support item assignment
+2020-12-14 14:10:15 - INFO - 127.0.0.1 - - [14/Dec/2020 14:10:15] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 14:10:15 - INFO - 127.0.0.1 - - [14/Dec/2020 14:10:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:11:19 - INFO - 127.0.0.1 - - [14/Dec/2020 14:11:19] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:11:19 - INFO - 127.0.0.1 - - [14/Dec/2020 14:11:19] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:11:19 - INFO - 127.0.0.1 - - [14/Dec/2020 14:11:19] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:11:19 - INFO - 127.0.0.1 - - [14/Dec/2020 14:11:19] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:11:19 - INFO - 127.0.0.1 - - [14/Dec/2020 14:11:19] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:11:19 - INFO - 127.0.0.1 - - [14/Dec/2020 14:11:19] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:11:19 - INFO - 127.0.0.1 - - [14/Dec/2020 14:11:19] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:11:19 - INFO - 127.0.0.1 - - [14/Dec/2020 14:11:19] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:12:48 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 14:12:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:12:48] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:12:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:12:48] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:12:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:12:48] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:12:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:12:48] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:12:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:12:48] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:12:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:12:48] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:12:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:12:48] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:12:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:12:48] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:12:49 - INFO - 127.0.0.1 - - [14/Dec/2020 14:12:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:12:59 - INFO - 'Polyommatus celina.jpg' - saved onto 'fd5b6a4d-4e52-42e2-947e-efb93196bccf.jpg'
+2020-12-14 14:12:59 - INFO - 'Polyommatus celina.jpg' - 2 results in 470 milliseconds for min confidence level 0.100000
+2020-12-14 14:12:59 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 14:12:59 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 87, in classify_image
+    elem[i][1] = "Polyommatus celina/icarus"
+TypeError: 'str' object does not support item assignment
+2020-12-14 14:12:59 - INFO - 127.0.0.1 - - [14/Dec/2020 14:12:59] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 14:12:59 - INFO - 127.0.0.1 - - [14/Dec/2020 14:12:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:13:04 - INFO - 127.0.0.1 - - [14/Dec/2020 14:13:04] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:13:04 - INFO - 127.0.0.1 - - [14/Dec/2020 14:13:04] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:13:04 - INFO - 127.0.0.1 - - [14/Dec/2020 14:13:04] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:13:04 - INFO - 127.0.0.1 - - [14/Dec/2020 14:13:04] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:13:04 - INFO - 127.0.0.1 - - [14/Dec/2020 14:13:04] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:13:04 - INFO - 127.0.0.1 - - [14/Dec/2020 14:13:04] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:13:04 - INFO - 127.0.0.1 - - [14/Dec/2020 14:13:04] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:13:04 - INFO - 127.0.0.1 - - [14/Dec/2020 14:13:04] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:41:51 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:51] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:41:52 - INFO - 127.0.0.1 - - [14/Dec/2020 14:41:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:42:11 - INFO - 'Polyommatus celina.jpg' - saved onto '2143d065-8eec-4c55-bc99-5a879669a925.jpg'
+2020-12-14 14:42:12 - INFO - 'Polyommatus celina.jpg' - 2 results in 238 milliseconds for min confidence level 0.100000
+2020-12-14 14:42:12 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 14:42:12 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 89, in classify_image
+    res_list.append(0, tuple)
+TypeError: append() takes exactly one argument (2 given)
+2020-12-14 14:42:12 - INFO - 127.0.0.1 - - [14/Dec/2020 14:42:12] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 14:42:12 - INFO - 127.0.0.1 - - [14/Dec/2020 14:42:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:42:48 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 14:42:49 - INFO - 127.0.0.1 - - [14/Dec/2020 14:42:49] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:42:49 - INFO - 127.0.0.1 - - [14/Dec/2020 14:42:49] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:42:49 - INFO - 127.0.0.1 - - [14/Dec/2020 14:42:49] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:42:49 - INFO - 127.0.0.1 - - [14/Dec/2020 14:42:49] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:42:49 - INFO - 127.0.0.1 - - [14/Dec/2020 14:42:49] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:42:49 - INFO - 127.0.0.1 - - [14/Dec/2020 14:42:49] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:42:49 - INFO - 127.0.0.1 - - [14/Dec/2020 14:42:49] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:42:49 - INFO - 127.0.0.1 - - [14/Dec/2020 14:42:49] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:42:50 - INFO - 127.0.0.1 - - [14/Dec/2020 14:42:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:43:01 - INFO - 'Polyommatus icarus.jpg' - saved onto 'eee849ea-a041-4620-b437-a64b1f582dcf.jpg'
+2020-12-14 14:43:01 - INFO - 'Polyommatus icarus.jpg' - 3 results in 134 milliseconds for min confidence level 0.100000
+2020-12-14 14:43:01 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 14:43:01 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 90, in classify_image
+    res_list.append(0, tuple)
+TypeError: append() takes exactly one argument (2 given)
+2020-12-14 14:43:01 - INFO - 127.0.0.1 - - [14/Dec/2020 14:43:01] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 14:43:01 - INFO - 127.0.0.1 - - [14/Dec/2020 14:43:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:43:25 - INFO - 127.0.0.1 - - [14/Dec/2020 14:43:25] "[31m[1mGET /classify_image HTTP/1.1[0m" 400 -
+2020-12-14 14:43:25 - INFO - 127.0.0.1 - - [14/Dec/2020 14:43:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:43:27 - INFO - 127.0.0.1 - - [14/Dec/2020 14:43:27] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:43:27 - INFO - 127.0.0.1 - - [14/Dec/2020 14:43:27] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:43:27 - INFO - 127.0.0.1 - - [14/Dec/2020 14:43:27] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:43:27 - INFO - 127.0.0.1 - - [14/Dec/2020 14:43:27] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:43:27 - INFO - 127.0.0.1 - - [14/Dec/2020 14:43:27] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:43:27 - INFO - 127.0.0.1 - - [14/Dec/2020 14:43:27] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:43:27 - INFO - 127.0.0.1 - - [14/Dec/2020 14:43:27] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:43:27 - INFO - 127.0.0.1 - - [14/Dec/2020 14:43:27] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:43:27 - INFO - 127.0.0.1 - - [14/Dec/2020 14:43:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:44:07 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 14:44:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:24] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:44:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:24] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:44:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:24] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:44:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:24] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:44:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:24] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:44:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:24] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:44:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:24] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:44:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:24] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:44:25 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:44:31 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:31] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:44:32 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:32] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:44:32 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:32] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:44:32 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:32] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:44:32 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:32] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:44:32 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:32] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:44:32 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:32] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:44:32 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:32] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:44:37 - INFO - 'Polyommatus celina.jpg' - saved onto '7c5a9e8a-b6ed-4473-868b-6c88694a16dd.jpg'
+2020-12-14 14:44:38 - INFO - 'Polyommatus celina.jpg' - 2 results in 214 milliseconds for min confidence level 0.100000
+2020-12-14 14:44:38 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 14:44:38 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 90, in classify_image
+    res_list.append(0, tuple)
+TypeError: append() takes exactly one argument (2 given)
+2020-12-14 14:44:38 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:38] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 14:44:38 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:44:50 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:50] "[31m[1mGET /classify_image HTTP/1.1[0m" 400 -
+2020-12-14 14:44:52 - INFO - 127.0.0.1 - - [14/Dec/2020 14:44:52] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:45:02 - INFO - 'Polyommatus icarus.jpg' - saved onto '97f943bb-6585-43d6-8e61-4d2a4bd74e89.jpg'
+2020-12-14 14:45:02 - INFO - 'Polyommatus icarus.jpg' - 3 results in 97 milliseconds for min confidence level 0.100000
+2020-12-14 14:45:02 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 14:45:02 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 90, in classify_image
+    res_list.append(0, tuple)
+TypeError: append() takes exactly one argument (2 given)
+2020-12-14 14:45:02 - INFO - 127.0.0.1 - - [14/Dec/2020 14:45:02] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 14:46:46 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 14:46:47 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:47] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:46:47 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:47] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:46:47 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:47] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:46:47 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:47] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:46:47 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:47] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:46:47 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:47] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:46:47 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:47] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:46:47 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:47] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:46:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:46:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:48] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:46:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:48] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:46:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:48] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:46:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:48] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:46:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:48] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:46:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:48] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:46:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:48] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:46:48 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:48] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:46:58 - INFO - 'Polyommatus icarus.jpg' - saved onto 'eb0958da-047a-435b-b09a-dae0b249f9ac.jpg'
+2020-12-14 14:46:58 - INFO - 'Polyommatus icarus.jpg' - 3 results in 351 milliseconds for min confidence level 0.100000
+2020-12-14 14:46:58 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 14:46:58 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 93, in classify_image
+    res_list.append(0, tuple)
+TypeError: append() takes exactly one argument (2 given)
+2020-12-14 14:46:58 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:58] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 14:46:58 - INFO - 127.0.0.1 - - [14/Dec/2020 14:46:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:48:22 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 14:48:23 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:23] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:48:23 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:23] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:48:23 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:23] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:48:23 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:23] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:48:23 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:23] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:48:23 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:23] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:48:23 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:23] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:48:23 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:23] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:48:23 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 14:48:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:24] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 14:48:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:24] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 14:48:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:24] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 14:48:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:24] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 14:48:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:24] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 14:48:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:24] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 14:48:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:24] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 14:48:24 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:24] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 14:48:35 - INFO - 'Polyommatus icarus.jpg' - saved onto '37890f76-91bf-4f03-8496-4db8c738cc24.jpg'
+2020-12-14 14:48:35 - INFO - 'Polyommatus icarus.jpg' - 3 results in 203 milliseconds for min confidence level 0.100000
+2020-12-14 14:48:35 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 14:48:35 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 92, in classify_image
+    print("New tuple: " + tuple)
+TypeError: can only concatenate str (not "tuple") to str
+2020-12-14 14:48:35 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:35] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 14:48:36 - INFO - 127.0.0.1 - - [14/Dec/2020 14:48:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:15:51 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:15:52 - INFO - 127.0.0.1 - - [14/Dec/2020 15:15:52] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:15:53 - INFO - 127.0.0.1 - - [14/Dec/2020 15:15:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:15:57 - INFO - 127.0.0.1 - - [14/Dec/2020 15:15:57] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:15:57 - INFO - 127.0.0.1 - - [14/Dec/2020 15:15:57] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:15:57 - INFO - 127.0.0.1 - - [14/Dec/2020 15:15:57] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:15:57 - INFO - 127.0.0.1 - - [14/Dec/2020 15:15:57] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:15:57 - INFO - 127.0.0.1 - - [14/Dec/2020 15:15:57] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:15:57 - INFO - 127.0.0.1 - - [14/Dec/2020 15:15:57] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:15:57 - INFO - 127.0.0.1 - - [14/Dec/2020 15:15:57] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:15:57 - INFO - 127.0.0.1 - - [14/Dec/2020 15:15:57] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:16:05 - INFO - 'Polyommatus celina.jpg' - saved onto '5ad36972-a6f6-4115-a9aa-8f66ab314168.jpg'
+2020-12-14 15:16:05 - INFO - 'Polyommatus celina.jpg' - 2 results in 355 milliseconds for min confidence level 0.100000
+2020-12-14 15:16:05 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 15:16:05 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 94, in classify_image
+    res_list.append(0, tuple)
+TypeError: append() takes exactly one argument (2 given)
+2020-12-14 15:16:05 - INFO - 127.0.0.1 - - [14/Dec/2020 15:16:05] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 15:16:05 - INFO - 127.0.0.1 - - [14/Dec/2020 15:16:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:22:03 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:22:04 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:04] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:22:08 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:08] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:22:08 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:08] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:22:08 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:08] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:22:08 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:08] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:22:08 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:08] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:22:08 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:08] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:22:08 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:08] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:22:08 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:08] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:22:08 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:22:17 - INFO - 'Polyommatus celina.jpg' - saved onto '0c0c7160-5824-4d8b-a60a-bc555b2bc53f.jpg'
+2020-12-14 15:22:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:18] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:22:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:18] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:22:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:18] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:22:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:18] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:22:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:18] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:22:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:18] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:22:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:18] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:22:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:18] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:22:18 - INFO - 'Polyommatus celina.jpg' - 2 results in 521 milliseconds for min confidence level 0.100000
+2020-12-14 15:22:18 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 15:22:18 - INFO - 'Polyommatus celina.jpg' - (' 10.59%', 'Polyommatus icarus')
+2020-12-14 15:22:18 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 107, in classify_image
+    res_list.append(0, tuple)
+TypeError: append() takes exactly one argument (2 given)
+2020-12-14 15:22:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:18] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 15:22:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:22:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:22:58 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:23:04 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:04] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:23:04 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:04] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:23:04 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:04] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:23:04 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:04] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:23:04 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:04] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:23:04 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:04] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:23:04 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:04] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:23:04 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:04] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:23:20 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:20] "[31m[1mGET /classify_image HTTP/1.1[0m" 400 -
+2020-12-14 15:23:20 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:23:21 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:21] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:23:21 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:21] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:23:21 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:21] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:23:21 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:21] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:23:21 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:21] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:23:21 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:21] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:23:21 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:21] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:23:21 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:21] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:23:21 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:23:31 - INFO - 'Polyommatus celina.jpg' - saved onto '950dbcfb-6dd8-495e-825c-ee5c8844be5e.jpg'
+2020-12-14 15:23:31 - INFO - 'Polyommatus celina.jpg' - 2 results in 137 milliseconds for min confidence level 0.100000
+2020-12-14 15:23:31 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 15:23:31 - INFO - 'Polyommatus celina.jpg' - (' 10.59%', 'Polyommatus icarus')
+2020-12-14 15:23:31 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 106, in classify_image
+    res_list.append(0, tuple)
+TypeError: append() takes exactly one argument (2 given)
+2020-12-14 15:23:31 - INFO - 127.0.0.1 - - [14/Dec/2020 15:23:31] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 15:24:58 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:24:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:24:59] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:24:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:24:59] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:24:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:24:59] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:24:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:24:59] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:24:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:24:59] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:24:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:24:59] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:24:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:24:59] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:24:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:24:59] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:24:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:24:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:25:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:00] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:25:01 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:01] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:25:01 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:01] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:25:01 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:01] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:25:01 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:01] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:25:01 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:01] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:25:01 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:01] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:25:01 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:01] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:25:09 - INFO - 'Polyommatus celina.jpg' - saved onto 'a243dde9-6d95-4b78-ab90-0a96f1558958.jpg'
+2020-12-14 15:25:10 - INFO - 'Polyommatus celina.jpg' - 2 results in 282 milliseconds for min confidence level 0.100000
+2020-12-14 15:25:10 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 15:25:10 - INFO - 'Polyommatus celina.jpg' - (' 10.59%', 'Polyommatus icarus')
+2020-12-14 15:25:10 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 107, in classify_image
+    res_list.append(0, tuple)
+TypeError: append() takes exactly one argument (2 given)
+2020-12-14 15:25:10 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:10] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 15:25:10 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:25:53 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:25:54 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:54] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:25:54 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:54] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:25:54 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:54] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:25:54 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:54] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:25:54 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:54] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:25:54 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:54] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:25:54 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:54] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:25:54 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:54] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:25:54 - INFO - 127.0.0.1 - - [14/Dec/2020 15:25:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:26:03 - INFO - 'Polyommatus celina.jpg' - saved onto '7b10dee8-e7fb-4f38-9846-01e34e755e23.jpg'
+2020-12-14 15:26:03 - INFO - 'Polyommatus celina.jpg' - 2 results in 139 milliseconds for min confidence level 0.100000
+2020-12-14 15:26:03 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 15:26:03 - INFO - 'Polyommatus celina.jpg' - (' 10.59%', 'Polyommatus icarus')
+2020-12-14 15:26:03 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 109, in classify_image
+    res_list.append(0, tuple)
+TypeError: append() takes exactly one argument (2 given)
+2020-12-14 15:26:03 - INFO - 127.0.0.1 - - [14/Dec/2020 15:26:03] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 15:26:03 - INFO - 127.0.0.1 - - [14/Dec/2020 15:26:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:26:20 - INFO - 127.0.0.1 - - [14/Dec/2020 15:26:20] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:26:20 - INFO - 127.0.0.1 - - [14/Dec/2020 15:26:20] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:26:20 - INFO - 127.0.0.1 - - [14/Dec/2020 15:26:20] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:26:20 - INFO - 127.0.0.1 - - [14/Dec/2020 15:26:20] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:26:20 - INFO - 127.0.0.1 - - [14/Dec/2020 15:26:20] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:26:20 - INFO - 127.0.0.1 - - [14/Dec/2020 15:26:20] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:26:20 - INFO - 127.0.0.1 - - [14/Dec/2020 15:26:20] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:26:20 - INFO - 127.0.0.1 - - [14/Dec/2020 15:26:20] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:27:31 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:27:33 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:33] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:27:33 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:33] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:27:33 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:33] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:27:33 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:33] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:27:33 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:33] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:27:33 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:33] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:27:33 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:33] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:27:33 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:33] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:27:33 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:27:37 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:37] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:27:37 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:37] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:27:37 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:37] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:27:37 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:37] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:27:37 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:37] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:27:37 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:37] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:27:37 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:37] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:27:37 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:37] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:27:50 - INFO - 'Polyommatus icarus.jpg' - saved onto '65d4d346-e971-424f-9318-cf14fe84c0f7.jpg'
+2020-12-14 15:27:50 - INFO - 'Polyommatus icarus.jpg' - 3 results in 150 milliseconds for min confidence level 0.100000
+2020-12-14 15:27:50 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 15:27:50 - INFO - 'Polyommatus icarus.jpg' - (' 14.51%', 'Polyommatus icarus')
+2020-12-14 15:27:50 - INFO - 'Polyommatus icarus.jpg' - (' 13.73%', 'Lysandra bellargus')
+2020-12-14 15:27:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:50] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:27:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:50] "[37mGET /static/images/65d4d346-e971-424f-9318-cf14fe84c0f7.jpg HTTP/1.1[0m" 200 -
+2020-12-14 15:27:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:50] "[37mGET /static/inaturalist_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:27:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:50] "[37mGET /static/wikipedia_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:27:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:27:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:29:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:29:58] "[31m[1mGET /classify_image HTTP/1.1[0m" 400 -
+2020-12-14 15:29:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:29:59] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:30:11 - INFO - 'Polyommatus celina.jpg' - saved onto '2c8b9b76-10d0-4264-b581-1b1b7f97e29b.jpg'
+2020-12-14 15:30:11 - INFO - 'Polyommatus celina.jpg' - 2 results in 101 milliseconds for min confidence level 0.100000
+2020-12-14 15:30:11 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 15:30:11 - INFO - 'Polyommatus celina.jpg' - (' 10.59%', 'Polyommatus icarus')
+2020-12-14 15:30:11 - INFO - 127.0.0.1 - - [14/Dec/2020 15:30:11] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:30:11 - INFO - 127.0.0.1 - - [14/Dec/2020 15:30:11] "[37mGET /static/images/2c8b9b76-10d0-4264-b581-1b1b7f97e29b.jpg HTTP/1.1[0m" 200 -
+2020-12-14 15:30:29 - INFO - 'Polyommatus icarus.jpg' - saved onto '21026552-d8d3-4dbc-b2a3-f825079f8d58.jpg'
+2020-12-14 15:30:29 - INFO - 'Polyommatus icarus.jpg' - 3 results in 113 milliseconds for min confidence level 0.100000
+2020-12-14 15:30:29 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 15:30:29 - INFO - 'Polyommatus icarus.jpg' - (' 14.51%', 'Polyommatus icarus')
+2020-12-14 15:30:29 - INFO - 'Polyommatus icarus.jpg' - (' 13.73%', 'Lysandra bellargus')
+2020-12-14 15:30:29 - INFO - 127.0.0.1 - - [14/Dec/2020 15:30:29] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:30:29 - INFO - 127.0.0.1 - - [14/Dec/2020 15:30:29] "[37mGET /static/images/21026552-d8d3-4dbc-b2a3-f825079f8d58.jpg HTTP/1.1[0m" 200 -
+2020-12-14 15:33:50 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:33:52 - INFO - 127.0.0.1 - - [14/Dec/2020 15:33:52] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:33:52 - INFO - 127.0.0.1 - - [14/Dec/2020 15:33:52] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:33:52 - INFO - 127.0.0.1 - - [14/Dec/2020 15:33:52] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:33:52 - INFO - 127.0.0.1 - - [14/Dec/2020 15:33:52] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:33:52 - INFO - 127.0.0.1 - - [14/Dec/2020 15:33:52] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:33:52 - INFO - 127.0.0.1 - - [14/Dec/2020 15:33:52] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:33:52 - INFO - 127.0.0.1 - - [14/Dec/2020 15:33:52] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:33:52 - INFO - 127.0.0.1 - - [14/Dec/2020 15:33:52] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:33:53 - INFO - 127.0.0.1 - - [14/Dec/2020 15:33:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:34:12 - INFO - 'Polyommatus celina.jpg' - saved onto '1ba24016-d5ae-40e8-8c1f-dd0ae8812011.jpg'
+2020-12-14 15:34:13 - INFO - 'Polyommatus celina.jpg' - 2 results in 280 milliseconds for min confidence level 0.100000
+2020-12-14 15:34:13 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 15:34:13 - INFO - 'Polyommatus celina.jpg' - (' 10.59%', 'Polyommatus icarus')
+2020-12-14 15:34:13 - INFO - 127.0.0.1 - - [14/Dec/2020 15:34:13] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:34:13 - INFO - 127.0.0.1 - - [14/Dec/2020 15:34:13] "[37mGET /static/images/1ba24016-d5ae-40e8-8c1f-dd0ae8812011.jpg HTTP/1.1[0m" 200 -
+2020-12-14 15:34:13 - INFO - 127.0.0.1 - - [14/Dec/2020 15:34:13] "[37mGET /static/inaturalist_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:34:13 - INFO - 127.0.0.1 - - [14/Dec/2020 15:34:13] "[37mGET /static/wikipedia_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:34:13 - INFO - 127.0.0.1 - - [14/Dec/2020 15:34:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:36:32 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:36:33 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:33] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:36:33 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:36:42 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:42] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:36:42 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:42] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:36:42 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:42] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:36:42 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:42] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:36:42 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:42] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:36:42 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:42] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:36:42 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:42] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:36:42 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:42] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:36:45 - INFO - 'Polyommatus celina.jpg' - saved onto '0e6a09b4-4bca-40b8-8fca-96540b9e3981.jpg'
+2020-12-14 15:36:45 - INFO - 'Polyommatus celina.jpg' - 2 results in 253 milliseconds for min confidence level 0.100000
+2020-12-14 15:36:45 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 15:36:45 - INFO - 'Polyommatus celina.jpg' - (' 10.59%', 'Polyommatus icarus')
+2020-12-14 15:36:45 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:45] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:36:45 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:45] "[37mGET /static/images/0e6a09b4-4bca-40b8-8fca-96540b9e3981.jpg HTTP/1.1[0m" 200 -
+2020-12-14 15:36:45 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:45] "[37mGET /static/inaturalist_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:36:45 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:45] "[37mGET /static/wikipedia_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:36:45 - INFO - 127.0.0.1 - - [14/Dec/2020 15:36:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:37:54 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:38:10 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:10] "[31m[1mGET /classify_image HTTP/1.1[0m" 400 -
+2020-12-14 15:38:12 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:12] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:38:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:18] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:38:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:18] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:38:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:18] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:38:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:18] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:38:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:18] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:38:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:18] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:38:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:18] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:38:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:18] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:38:18 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:38:28 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:28] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:38:29 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:29] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:38:29 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:29] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:38:29 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:29] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:38:29 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:29] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:38:29 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:29] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:38:29 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:29] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:38:29 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:29] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:38:30 - INFO - 'Polyommatus celina.jpg' - saved onto 'a0de7eab-06de-4d9d-adbc-b5c35cd5ac49.jpg'
+2020-12-14 15:38:30 - INFO - 'Polyommatus celina.jpg' - 2 results in 183 milliseconds for min confidence level 0.100000
+2020-12-14 15:38:30 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 15:38:30 - INFO - 'Polyommatus celina.jpg' - (' 10.59%', 'Polyommatus icarus')
+2020-12-14 15:38:30 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:30] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:38:30 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:30] "[37mGET /static/images/a0de7eab-06de-4d9d-adbc-b5c35cd5ac49.jpg HTTP/1.1[0m" 200 -
+2020-12-14 15:38:30 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:30] "[37mGET /static/inaturalist_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:38:30 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:30] "[37mGET /static/wikipedia_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:38:30 - INFO - 127.0.0.1 - - [14/Dec/2020 15:38:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:39:00 - INFO - 'Polyommatus celina.jpg' - saved onto 'c458c252-8a39-4e76-97c0-2ee942c87503.jpg'
+2020-12-14 15:39:00 - INFO - 'Polyommatus celina.jpg' - 2 results in 143 milliseconds for min confidence level 0.100000
+2020-12-14 15:39:00 - INFO - 'Polyommatus celina.jpg' - (' 23.14%', 'Lysandra bellargus')
+2020-12-14 15:39:00 - INFO - 'Polyommatus celina.jpg' - (' 10.59%', 'Polyommatus icarus')
+2020-12-14 15:39:00 - INFO - 'Polyommatus icarus.jpg' - saved onto '4d56ce24-87bf-4a2a-8ff7-0c2812d6c43c.jpg'
+2020-12-14 15:39:00 - INFO - 'Polyommatus icarus.jpg' - 3 results in 116 milliseconds for min confidence level 0.100000
+2020-12-14 15:39:00 - INFO - 'Polyommatus icarus.jpg' - (' 26.27%', 'Aricia cramera')
+2020-12-14 15:39:00 - INFO - 'Polyommatus icarus.jpg' - (' 14.51%', 'Polyommatus icarus')
+2020-12-14 15:39:00 - INFO - 'Polyommatus icarus.jpg' - (' 13.73%', 'Lysandra bellargus')
+2020-12-14 15:39:00 - INFO - 'Polyommatus thersites.jpg' - saved onto '18d1dc84-e091-4227-9094-4715b2c2ab9f.jpg'
+2020-12-14 15:39:00 - INFO - 'Polyommatus thersites.jpg' - 2 results in 103 milliseconds for min confidence level 0.100000
+2020-12-14 15:39:00 - INFO - 'Polyommatus thersites.jpg' - (' 40.00%', 'Polyommatus icarus')
+2020-12-14 15:39:00 - INFO - 'Polyommatus thersites.jpg' - (' 13.73%', 'Glaucopsyche alexis')
+2020-12-14 15:39:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:39:00] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:39:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:39:00] "[37mGET /static/images/c458c252-8a39-4e76-97c0-2ee942c87503.jpg HTTP/1.1[0m" 200 -
+2020-12-14 15:39:01 - INFO - 127.0.0.1 - - [14/Dec/2020 15:39:01] "[37mGET /static/images/4d56ce24-87bf-4a2a-8ff7-0c2812d6c43c.jpg HTTP/1.1[0m" 200 -
+2020-12-14 15:39:01 - INFO - 127.0.0.1 - - [14/Dec/2020 15:39:01] "[37mGET /static/images/18d1dc84-e091-4227-9094-4715b2c2ab9f.jpg HTTP/1.1[0m" 200 -
+2020-12-14 15:39:59 - INFO - 'iu.jpeg' - saved onto '338c9aa9-44ed-4003-ac84-7a71aa6c563d.jpeg'
+2020-12-14 15:39:59 - INFO - 'iu.jpeg' - 2 results in 108 milliseconds for min confidence level 0.100000
+2020-12-14 15:39:59 - INFO - 'iu.jpeg' - (' 31.37%', 'Polyommatus thersites')
+2020-12-14 15:39:59 - INFO - 'iu.jpeg' - (' 16.47%', 'Polyommatus celina')
+2020-12-14 15:39:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:39:59] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:40:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:40:00] "[37mGET /static/images/338c9aa9-44ed-4003-ac84-7a71aa6c563d.jpeg HTTP/1.1[0m" 200 -
+2020-12-14 15:40:47 - INFO - 'iu-2.jpeg' - saved onto 'd5d3174d-c37f-496e-bcd2-5eec17d92635.jpeg'
+2020-12-14 15:40:47 - INFO - 'iu-2.jpeg' - 2 results in 127 milliseconds for min confidence level 0.100000
+2020-12-14 15:40:47 - INFO - 'iu-2.jpeg' - (' 33.33%', 'Polyommatus celina')
+2020-12-14 15:40:47 - INFO - 'iu-2.jpeg' - (' 14.51%', 'Polyommatus thersites')
+2020-12-14 15:40:47 - INFO - 127.0.0.1 - - [14/Dec/2020 15:40:47] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:40:47 - INFO - 127.0.0.1 - - [14/Dec/2020 15:40:47] "[37mGET /static/images/d5d3174d-c37f-496e-bcd2-5eec17d92635.jpeg HTTP/1.1[0m" 200 -
+2020-12-14 15:41:32 - INFO - 'iu-3.jpeg' - saved onto '91d93a86-91f3-4dcc-90e6-b321ba4f9912.jpeg'
+2020-12-14 15:41:32 - INFO - 'iu-3.jpeg' - 3 results in 105 milliseconds for min confidence level 0.100000
+2020-12-14 15:41:32 - INFO - 'iu-3.jpeg' - (' 41.57%', 'Polyommatus thersites')
+2020-12-14 15:41:32 - INFO - 'iu-3.jpeg' - (' 15.29%', 'Lysandra bellargus')
+2020-12-14 15:41:32 - INFO - 'iu-3.jpeg' - (' 12.55%', 'Polyommatus celina')
+2020-12-14 15:41:32 - INFO - 127.0.0.1 - - [14/Dec/2020 15:41:32] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:41:32 - INFO - 127.0.0.1 - - [14/Dec/2020 15:41:32] "[37mGET /static/images/91d93a86-91f3-4dcc-90e6-b321ba4f9912.jpeg HTTP/1.1[0m" 200 -
+2020-12-14 15:42:12 - INFO - 'iu-4.jpeg' - saved onto 'a9512663-30d2-4b6c-882d-a56dfeffb503.jpeg'
+2020-12-14 15:42:12 - INFO - 'iu-4.jpeg' - 1 results in 95 milliseconds for min confidence level 0.100000
+2020-12-14 15:42:12 - INFO - 'iu-4.jpeg' - (' 63.14%', 'Polyommatus thersites')
+2020-12-14 15:42:12 - INFO - 127.0.0.1 - - [14/Dec/2020 15:42:12] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:42:12 - INFO - 127.0.0.1 - - [14/Dec/2020 15:42:12] "[37mGET /static/images/a9512663-30d2-4b6c-882d-a56dfeffb503.jpeg HTTP/1.1[0m" 200 -
+2020-12-14 15:42:37 - INFO - 'iu-4.jpeg' - saved onto '7e721068-d5ee-4a08-832c-ce5954b77280.jpeg'
+2020-12-14 15:42:37 - INFO - 'iu-4.jpeg' - 1 results in 102 milliseconds for min confidence level 0.100000
+2020-12-14 15:42:37 - INFO - 'iu-4.jpeg' - (' 63.14%', 'Polyommatus thersites')
+2020-12-14 15:42:37 - INFO - 127.0.0.1 - - [14/Dec/2020 15:42:37] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:42:37 - INFO - 127.0.0.1 - - [14/Dec/2020 15:42:37] "[37mGET /static/images/7e721068-d5ee-4a08-832c-ce5954b77280.jpeg HTTP/1.1[0m" 200 -
+2020-12-14 15:43:49 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:43:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:51] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:43:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:51] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:43:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:51] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:43:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:51] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:43:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:51] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:43:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:51] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:43:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:51] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:43:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:51] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:43:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:43:52 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:52] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:43:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:58] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:43:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:58] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:43:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:58] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:43:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:58] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:43:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:58] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:43:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:58] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:43:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:58] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:43:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:58] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:43:59 - INFO - 'iu-4.jpeg' - saved onto 'd71f5e0d-624f-4013-91cc-9bb8fca0a6ab.jpeg'
+2020-12-14 15:43:59 - INFO - 'iu-4.jpeg' - 1 results in 140 milliseconds for min confidence level 0.100000
+2020-12-14 15:43:59 - INFO - 'iu-4.jpeg' - (' 63.14%', 'Polyommatus thersites')
+2020-12-14 15:43:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:59] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:43:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:59] "[37mGET /static/images/d71f5e0d-624f-4013-91cc-9bb8fca0a6ab.jpeg HTTP/1.1[0m" 200 -
+2020-12-14 15:43:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:59] "[37mGET /static/inaturalist_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:43:59 - INFO - 127.0.0.1 - - [14/Dec/2020 15:43:59] "[37mGET /static/wikipedia_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:44:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:44:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:45:05 - INFO - 'iu-5.jpeg' - saved onto 'b7b559ba-481c-4d49-b941-eac05559c7c0.jpeg'
+2020-12-14 15:45:05 - INFO - 'iu-5.jpeg' - 1 results in 118 milliseconds for min confidence level 0.100000
+2020-12-14 15:45:05 - INFO - 'iu-5.jpeg' - (' 36.47%', 'Phengaris alcon')
+2020-12-14 15:45:05 - INFO - 127.0.0.1 - - [14/Dec/2020 15:45:05] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:45:05 - INFO - 127.0.0.1 - - [14/Dec/2020 15:45:05] "[37mGET /static/images/b7b559ba-481c-4d49-b941-eac05559c7c0.jpeg HTTP/1.1[0m" 200 -
+2020-12-14 15:45:31 - INFO - 'iu-6.jpeg' - saved onto '63638e43-9ca2-4dff-9426-089b98c20e4d.jpeg'
+2020-12-14 15:45:31 - INFO - 'iu-6.jpeg' - 3 results in 117 milliseconds for min confidence level 0.100000
+2020-12-14 15:45:31 - INFO - 'iu-6.jpeg' - (' 17.65%', 'Polyommatus celina')
+2020-12-14 15:45:31 - INFO - 'iu-6.jpeg' - (' 16.86%', 'Plebejus argus')
+2020-12-14 15:45:31 - INFO - 'iu-6.jpeg' - (' 14.12%', 'Glaucopsyche alexis')
+2020-12-14 15:45:31 - INFO - 127.0.0.1 - - [14/Dec/2020 15:45:31] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:45:31 - INFO - 127.0.0.1 - - [14/Dec/2020 15:45:31] "[37mGET /static/images/63638e43-9ca2-4dff-9426-089b98c20e4d.jpeg HTTP/1.1[0m" 200 -
+2020-12-14 15:45:54 - INFO - 'iu-6.jpeg' - saved onto '403d28ec-47e2-4886-a368-4c05120230ff.jpeg'
+2020-12-14 15:45:55 - INFO - 'iu-6.jpeg' - 3 results in 117 milliseconds for min confidence level 0.100000
+2020-12-14 15:45:55 - INFO - 'iu-6.jpeg' - (' 17.65%', 'Polyommatus celina')
+2020-12-14 15:45:55 - INFO - 'iu-6.jpeg' - (' 16.86%', 'Plebejus argus')
+2020-12-14 15:45:55 - INFO - 'iu-6.jpeg' - (' 14.12%', 'Glaucopsyche alexis')
+2020-12-14 15:45:55 - INFO - 127.0.0.1 - - [14/Dec/2020 15:45:55] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:45:55 - INFO - 127.0.0.1 - - [14/Dec/2020 15:45:55] "[37mGET /static/images/403d28ec-47e2-4886-a368-4c05120230ff.jpeg HTTP/1.1[0m" 200 -
+2020-12-14 15:48:09 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:48:31 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:48:32 - INFO - 127.0.0.1 - - [14/Dec/2020 15:48:32] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:48:33 - INFO - 127.0.0.1 - - [14/Dec/2020 15:48:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:48:39 - INFO - 127.0.0.1 - - [14/Dec/2020 15:48:39] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:48:39 - INFO - 127.0.0.1 - - [14/Dec/2020 15:48:39] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:48:39 - INFO - 127.0.0.1 - - [14/Dec/2020 15:48:39] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:48:39 - INFO - 127.0.0.1 - - [14/Dec/2020 15:48:39] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:48:39 - INFO - 127.0.0.1 - - [14/Dec/2020 15:48:39] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:48:39 - INFO - 127.0.0.1 - - [14/Dec/2020 15:48:39] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:48:39 - INFO - 127.0.0.1 - - [14/Dec/2020 15:48:39] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:48:39 - INFO - 127.0.0.1 - - [14/Dec/2020 15:48:39] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:48:42 - INFO - 'iu-7.jpeg' - saved onto '473c90b7-b0a4-4969-9feb-65e0560ab517.jpeg'
+2020-12-14 15:48:42 - INFO - 'iu-7.jpeg' - 2 results in 259 milliseconds for min confidence level 0.100000
+2020-12-14 15:48:42 - INFO - 'iu-7.jpeg' - (' 34.12%', 'Polyommatus thersites')
+2020-12-14 15:48:42 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 98, in classify_image
+    elem_to_delete.append(elem)
+NameError: name 'elem_to_delete' is not defined
+2020-12-14 15:48:42 - INFO - 127.0.0.1 - - [14/Dec/2020 15:48:42] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 15:48:43 - INFO - 127.0.0.1 - - [14/Dec/2020 15:48:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:49:45 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:49:46 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:46] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:49:46 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:46] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:49:46 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:46] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:49:46 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:46] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:49:46 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:46] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:49:46 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:46] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:49:46 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:46] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:49:46 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:46] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:49:47 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:47] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:49:47 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:47] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:49:47 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:47] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:49:47 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:47] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:49:47 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:47] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:49:47 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:47] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:49:47 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:47] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:49:47 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:47] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:49:47 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:49:55 - INFO - 'iu-7.jpeg' - saved onto '9580d7ba-c146-493a-a582-79b50a56fbe5.jpeg'
+2020-12-14 15:49:55 - INFO - 'iu-7.jpeg' - 2 results in 348 milliseconds for min confidence level 0.100000
+2020-12-14 15:49:55 - INFO - 'iu-7.jpeg' - (' 34.12%', 'Polyommatus thersites')
+2020-12-14 15:49:55 - ERROR - Exception on /classify_image [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tomasmamede/Library/Mobile Documents/com~apple~CloudDocs/Faculdade/Investigação/Projeto Lepidoptera/Web-App-Flask/app.py", line 99, in classify_image
+    elem_to_delete.append(elem)
+NameError: name 'elem_to_delete' is not defined
+2020-12-14 15:49:55 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:55] "[35m[1mPOST /classify_image HTTP/1.1[0m" 500 -
+2020-12-14 15:49:55 - INFO - 127.0.0.1 - - [14/Dec/2020 15:49:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:50:49 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:50:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:50] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:50:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:50] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:50:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:50] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:50:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:50] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:50:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:50] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:50:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:50] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:50:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:50] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:50:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:50] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:50:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:50] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:50:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:50] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:50:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:50] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:50:50 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:50] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:50:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:51] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:50:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:51] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:50:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:51] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:50:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:51] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:50:51 - INFO - 127.0.0.1 - - [14/Dec/2020 15:50:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:50:59 - INFO - 'iu-7.jpeg' - saved onto 'd139c459-7a73-4902-b4a5-6b8da270b98f.jpeg'
+2020-12-14 15:51:00 - INFO - 'iu-7.jpeg' - 2 results in 266 milliseconds for min confidence level 0.100000
+2020-12-14 15:51:00 - INFO - 'iu-7.jpeg' - (' 34.12%', 'Polyommatus thersites')
+2020-12-14 15:51:00 - INFO - 'iu-7.jpeg' - (' 13.33%', 'Polyommatus celina')
+2020-12-14 15:51:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:51:00] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:51:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:51:00] "[37mGET /static/images/d139c459-7a73-4902-b4a5-6b8da270b98f.jpeg HTTP/1.1[0m" 200 -
+2020-12-14 15:51:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:51:00] "[37mGET /static/inaturalist_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:51:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:51:00] "[37mGET /static/wikipedia_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:51:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:51:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:52:06 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:52:07 - INFO - 127.0.0.1 - - [14/Dec/2020 15:52:07] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:52:19 - INFO - 'iu-7.jpeg' - saved onto '54c6e43f-d05a-4050-b649-1c0bed66f49c.jpeg'
+2020-12-14 15:52:19 - INFO - 'iu-7.jpeg' - 2 results in 155 milliseconds for min confidence level 0.100000
+2020-12-14 15:52:19 - INFO - 'iu-7.jpeg' - (' 34.12%', 'Polyommatus thersites')
+2020-12-14 15:52:19 - INFO - 'iu-7.jpeg' - (' 13.33%', 'Polyommatus celina')
+2020-12-14 15:52:19 - INFO - 127.0.0.1 - - [14/Dec/2020 15:52:19] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:52:19 - INFO - 127.0.0.1 - - [14/Dec/2020 15:52:19] "[37mGET /static/images/54c6e43f-d05a-4050-b649-1c0bed66f49c.jpeg HTTP/1.1[0m" 200 -
+2020-12-14 15:53:47 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-14 15:53:48 - INFO - 127.0.0.1 - - [14/Dec/2020 15:53:48] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:53:48 - INFO - 127.0.0.1 - - [14/Dec/2020 15:53:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-12-14 15:53:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:53:58] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-14 15:53:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:53:58] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2020-12-14 15:53:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:53:58] "[37mGET /static/main.js HTTP/1.1[0m" 200 -
+2020-12-14 15:53:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:53:58] "[37mGET /static/logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:53:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:53:58] "[37mGET /static/background.png HTTP/1.1[0m" 200 -
+2020-12-14 15:53:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:53:58] "[37mGET /static/pdf.png HTTP/1.1[0m" 200 -
+2020-12-14 15:53:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:53:58] "[37mGET /static/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg HTTP/1.1[0m" 200 -
+2020-12-14 15:53:58 - INFO - 127.0.0.1 - - [14/Dec/2020 15:53:58] "[37mGET /static/github.png HTTP/1.1[0m" 200 -
+2020-12-14 15:54:00 - INFO - 'iu-7.jpeg' - saved onto '60b8a341-55e0-46ab-983a-7508cefaaa72.jpeg'
+2020-12-14 15:54:00 - INFO - 'iu-7.jpeg' - 2 results in 163 milliseconds for min confidence level 0.100000
+2020-12-14 15:54:00 - INFO - 'iu-7.jpeg' - (' 34.12%', 'Polyommatus thersites')
+2020-12-14 15:54:00 - INFO - 'iu-7.jpeg' - (' 13.33%', 'Polyommatus celina')
+2020-12-14 15:54:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:54:00] "[37mPOST /classify_image HTTP/1.1[0m" 200 -
+2020-12-14 15:54:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:54:00] "[37mGET /static/images/60b8a341-55e0-46ab-983a-7508cefaaa72.jpeg HTTP/1.1[0m" 200 -
+2020-12-14 15:54:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:54:00] "[37mGET /static/inaturalist_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:54:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:54:00] "[37mGET /static/wikipedia_logo.png HTTP/1.1[0m" 200 -
+2020-12-14 15:54:00 - INFO - 127.0.0.1 - - [14/Dec/2020 15:54:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
