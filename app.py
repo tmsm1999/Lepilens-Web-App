@@ -79,10 +79,28 @@ def classify_image():
                 t = time.time() - t
                 logging.info('\'%s\' - %d results in %d milliseconds for min confidence level %f' % (image.filename,len(res_list), int(t * 1e+03), min_confidence))
                 dictionary[unique_filename] = res_list
+                
                 if len(res_list) != 0:
+                  flag = 0
+                  tuple = ()
+                  elem_to_delete = []
+                  position = 0
+                  i = 0
                   for elem in res_list:
-                    logging.info('\'%s\' - %s' % (image.filename, elem))
+                    if elem[1] == "Polyommatus celina" or elem[1] == "Polyommatus icarus":
+                        if flag == 0:
+                            tuple = (elem[0], "Polyommatus celina/icarus")
+                            flag = 1
+                            position = i
+                        elem_to_delete.append(elem)
+                    i += 1
 
+                    logging.info('\'%s\' - %s' % (image.filename, elem))
+                
+                if flag == 1:
+                    for elem in elem_to_delete:
+                        res_list.remove(elem)
+                    res_list.insert(position, tuple)
 
     return render_template('Model_WebPage.html', confidence_slider_initially=confidence_slider,species_list=dictionary, family_dict=family_dict,
     secundary_name=secundary_name, iNaturalist_link=iNaturalist_link, wikipedia_link=wikipedia_link)
