@@ -1,6 +1,6 @@
 [
     {
-        "name":"Aglais io",
+        "name":"Inachis io",
         "family":"Nymphalidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=207977",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Aglais_io",
@@ -63,21 +63,21 @@
         "otherName":"False Grayling"
     },
     {
-        "name":"Argynnis adippe",
+        "name":"Fabriciana adippe",
         "family":"Nymphalidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=70105",
         "WikipediaLink":"https://en.wikipedia.org/wiki/High_brown_fritillary",
         "otherName":"High Brown Fritillary"
     },
     {
-        "name":"Argynnis aglaja",
+        "name":"Speyeria aglaja",
         "family":"Nymphalidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=1116165",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Dark_green_fritillary",
         "otherName":"Dark Green Fritillary"
     },
     {
-        "name":"Argynnis niobe",
+        "name":"Fabriciana niobe",
         "family":"Nymphalidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=335001",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Niobe_fritillary",
@@ -553,7 +553,7 @@
         "otherName":"Sooty Copper"
     },
     {
-        "name":"Lycaena virgaureae",
+        "name":"Heodes virgaureae",
         "family":"Lycaenidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=147078",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Scarce_copper",
@@ -700,7 +700,7 @@
         "otherName":"Speckled Wood"
     },
     {
-        "name":"Phengaris alcon",
+        "name":"Maculinea alcon",
         "family":"Lycaenidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=426193",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Phengaris_alcon",
@@ -742,7 +742,7 @@
         "otherName":"European Comma"
     },
     {
-        "name":"Polyommatus bellargus",
+        "name":"Lysandra bellargus",
         "family":"Lycaenidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=154576",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Adonis_blue",
@@ -924,7 +924,7 @@
         "otherName":"Red Admiral"
     },
     {
-        "name":"Vanessa cardui",
+        "name":"Cynthia cardui",
         "family":"Nymphalidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=48548",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Vanessa_cardui",
