@@ -14,7 +14,7 @@
 	<h1>Lepilens</h1>
 
 	<div class="contacts">
-		<a href="https://testflight.apple.com/join/h4vpWJoe">
+		<a href="https://apps.apple.com/pt/app/lepilens/id1536347698?l=en">
 			<img src="{{ url_for('static', filename='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg') }}" alt="Download on the App store">
 		</a>
 	</div>
@@ -72,7 +72,7 @@
 		<br>
 		<h2>Inception</h2>
                 <p id="confidence_paragraph">
-		Lepilens was developed by <b><a href="mailto:tsmamede@dcc.fc.up.pt">Tomás M. S. Mamede</a></b> in 
+		Lepilens was developed by <b><a href="https://www.linkedin.com/in/tomas-santiago-mamede/">Tomás M. S. Mamede</a></b> in 
 		the scope of a project of the Computer Science BSc degree at <b><a href="https://www.dcc.fc.up.pt">DCC/FCUP</a></b>,
 		under the supervision of <b><a href="https://www.dcc.fc.up.pt/~lblopes">Luís M. B. Lopes</a></b>
 		and <b><a href="https://www.dcc.fc.up.pt/~edrdo">Eduardo R. B. Marques</a></b>.
@@ -162,10 +162,10 @@
 					<a id="{{ ekey }}.wikipedia" href=""><img height="20" src="{{ url_for('static', filename='wikipedia_logo.png') }}" alt="Wikipedia Logo"></a>
 				</div>
 				<script>
-                                        var score="{{ item[0] }}"
-                                        var species="{{ item[1] }}"
+                    var score="{{ item[0] }}"
+                    var species="{{ item[1] }}"
 					var confidence = parseFloat(score);
-                                        var color;
+                    var color;
 
 					if(confidence < 40) {
 						color = "{{ lowConfColor }}";

@@ -63,21 +63,21 @@
         "otherName":"False Grayling"
     },
     {
-        "name":"Argynnis adippe",
+        "name":"Fabriciana adippe",
         "family":"Nymphalidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=70105",
         "WikipediaLink":"https://en.wikipedia.org/wiki/High_brown_fritillary",
         "otherName":"High Brown Fritillary"
     },
     {
-        "name":"Argynnis aglaja",
+        "name":"Speyeria aglaja",
         "family":"Nymphalidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=1116165",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Dark_green_fritillary",
         "otherName":"Dark Green Fritillary"
     },
     {
-        "name":"Argynnis niobe",
+        "name":"Fabriciana niobe",
         "family":"Nymphalidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=335001",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Niobe_fritillary",
@@ -742,25 +742,18 @@
         "otherName":"European Comma"
     },
     {
-        "name":"Polyommatus bellargus",
+        "name":"Lysandra bellargus",
         "family":"Lycaenidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=154576",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Adonis_blue",
         "otherName":"Adonis Blue"
     },
     {
-        "name":"Polyommatus celina",
-        "family":"Lycaenidae",
-        "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=473456",
-        "WikipediaLink":"https://en.wikipedia.org/wiki/Polyommatus",
-        "otherName":"Austaut's Blue"
-    },
-    {
-        "name":"Polyommatus icarus",
+        "name":"Polyommatus celina/icarus",
         "family":"Lycaenidae",
         "iNatLink":"https://www.inaturalist.org/observations?place_id=any&taxon_id=55641",
         "WikipediaLink":"https://en.wikipedia.org/wiki/Common_blue",
-        "otherName":"Common Blue"
+        "otherName":"Austaut's Blue/Common Blue"
     },
     {
         "name":"Polyommatus thersites",
