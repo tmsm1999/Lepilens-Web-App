@@ -79,6 +79,8 @@ def classify_image():
                 t = time.time() - t
                 logging.info('\'%s\' - %d results in %d milliseconds for min confidence level %f' % (image.filename,len(res_list), int(t * 1e+03), min_confidence))
                 dictionary[unique_filename] = res_list
+                for elem in res_list:
+                    logging.info('\'%s\' - %s' % (image.filename, elem))
                 
     return render_template('Model_WebPage.html', confidence_slider_initially=confidence_slider,species_list=dictionary, family_dict=family_dict,
     secundary_name=secundary_name, iNaturalist_link=iNaturalist_link, wikipedia_link=wikipedia_link)
