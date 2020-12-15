@@ -34,7 +34,7 @@ class Model:
             # print("==> %s <==" % file)
 
             final_results = []
-
+            used_labels = set()
             for i in top_categories:
                 if self.floating_model:
                     r = float(results[i])
@@ -42,9 +42,9 @@ class Model:
                     r = float(results[i] / 255.0)
                 if min_confidence != None and r < min_confidence:
                     break
-
-                res = ("{:6.2f}%".format(r*100), self.labels[i])
-                final_results.append(res)
-
+                if self.labels[i] not in used_labels:
+                    res = ("{:6.2f}%".format(r*100), self.labels[i])
+                    final_results.append(res)
+                    used_labels.add(self.labels[i])
 
             return final_results
