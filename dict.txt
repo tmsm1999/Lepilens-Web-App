@@ -1,6 +1,6 @@
 Pseudophilotes panoptes
 Melanargia ines
-Polyommatus celina
+Polyommatus celina/icarus
 Hipparchia semele
 Fabriciana niobe
 Pyrgus onopordi
@@ -111,7 +111,7 @@ Boloria dia
 Speyeria aglaja
 Lycaena phlaeas
 Glaucopsyche melanops
-Polyommatus icarus
+Polyommatus celina/icarus
 Melitaea deione
 Euchloe belemia
 Thecla betulae
