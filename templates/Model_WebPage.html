@@ -176,15 +176,15 @@
 					else if(confidence > 70) {
 						color = "{{ highConfColor }}";
 					}
-					document.getElementById("{{ ekey }}.species").innerHTML = "<b><i>" + species + "</i></b> " + score + " confidence";
+					document.getElementById("{{ ekey }}.species").innerHTML = "<b><i><span class=\"notranslate\">" + species + "</span></i></b> " + score + " confidence";
 					document.getElementById("{{ ekey }}.species").style.backgroundColor = color;
 
 					var species_family = {{ family_dict | tojson }};
 					var names = {{ secundary_name | tojson }};
 					var wiki_link = {{ wikipedia_link | tojson }};
 					var inat_link = {{ iNaturalist_link | tojson }};
-					document.getElementById("{{ ekey }}.family").innerHTML = "Family: <i>" + species_family[species]+ "</i>";
-					document.getElementById("{{ ekey }}.common_name").innerHTML = "Common name: " + names[species];
+					document.getElementById("{{ ekey }}.family").innerHTML = "Family: <i><span class=\"notranslate\">" + species_family[species]+ "</span></i>";
+					document.getElementById("{{ ekey }}.common_name").innerHTML = "Common name: <span class=\"notranslate\">" + names[species] + "</span>";
 					document.getElementById("{{ ekey }}.wikipedia").href = wiki_link[species];
 					document.getElementById("{{ ekey }}.inaturalist").href = inat_link[species];
 
