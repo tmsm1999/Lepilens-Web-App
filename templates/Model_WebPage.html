@@ -115,7 +115,7 @@
 			<li><b><a href="http://jasius.hu/lepidopterology/lepkek.html">Butterflies in Hungary</a></b> by Ádám Gór</li>
 			<li><b><a href="http://pyrgus.de">Lepidoptera and their ecology</a></b> by Wolfgang Wagner</li>
 			<li><b><a href="http://www.lepiforum.de">Lepiforum</a></b> by Erwin Rennwald and Jürgen Rodeland</li>
-			<li><b><a href="www.eurobutterflies.com/">euroButterflies</a></b> by Matt Rowlings</li>
+			<li><b><a href="https://www.eurobutterflies.com/">euroButterflies</a></b> by Matt Rowlings</li>
 			<li><b><a href="https://www.butterfliesoffrance.com">Butterflies of France</a></b> by Roger Gibbons</li>
 			<li><b><a href="https://ukbutterflies.co.uk">UK Butterflies</a></b> by Peter Eeles</li>
 			
@@ -176,15 +176,15 @@
 					else if(confidence > 70) {
 						color = "{{ highConfColor }}";
 					}
-					document.getElementById("{{ ekey }}.species").innerHTML = "<b><i>" + species + "</i></b> " + score + " confidence";
+					document.getElementById("{{ ekey }}.species").innerHTML = "<b><i><span class=\"notranslate\">" + species + "</span></i></b> " + score + " confidence";
 					document.getElementById("{{ ekey }}.species").style.backgroundColor = color;
 
 					var species_family = {{ family_dict | tojson }};
 					var names = {{ secundary_name | tojson }};
 					var wiki_link = {{ wikipedia_link | tojson }};
 					var inat_link = {{ iNaturalist_link | tojson }};
-					document.getElementById("{{ ekey }}.family").innerHTML = "Family: <i>" + species_family[species]+ "</i>";
-					document.getElementById("{{ ekey }}.common_name").innerHTML = "Common name: " + names[species];
+					document.getElementById("{{ ekey }}.family").innerHTML = "Family: <i><span class=\"notranslate\">" + species_family[species]+ "</span></i>";
+					document.getElementById("{{ ekey }}.common_name").innerHTML = "Common name: <span class=\"notranslate\">" + names[species] + "</span>";
 					document.getElementById("{{ ekey }}.wikipedia").href = wiki_link[species];
 					document.getElementById("{{ ekey }}.inaturalist").href = inat_link[species];
 
